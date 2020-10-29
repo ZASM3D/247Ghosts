@@ -1,6 +1,8 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.UI;
+
 
 public class GameManager : MonoBehaviour
 {
@@ -10,6 +12,7 @@ public class GameManager : MonoBehaviour
     private MouseLook playerLook;
 
     public GameObject defaultCanvas;
+    public GameObject notesCanvas;
     public GameObject player;
 
     void Awake() {
@@ -59,5 +62,16 @@ public class GameManager : MonoBehaviour
         playerCamera.transform.position = player.transform.GetChild(0).GetChild(0).position;
         playerCamera.transform.rotation = Quaternion.LookRotation(player.transform.forward);
 
+    }
+
+    public void LoadNote(string text) {
+        SetActiveCanvas(notesCanvas);
+        Text noteBody = notesCanvas.transform.GetChild(1).GetComponent<Text>();
+        noteBody.text = text;
+    }
+
+    public void UnloadNote() {
+        ResetCanvas();
+        AllowPlayerMovement();
     }
 }
