@@ -21,6 +21,11 @@ public class CharactrerControl : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
+        if (Input.GetButtonDown("Quit")) {
+            Debug.Log("Bye");
+            Application.Quit();
+        }
+
         float x = Input.GetAxis(strafeInput);
         float z = Input.GetAxis(forwardInput);
         Vector3 moveDirection = transform.right * x + transform.forward * z;
