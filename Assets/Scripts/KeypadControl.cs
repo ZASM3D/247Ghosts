@@ -6,6 +6,7 @@ using UnityEngine.UI;
 public class KeypadControl : MonoBehaviour
 {
     private string currentValue;
+    public bool enterNeeded;
     public int length;
     public string key;
     public TriggerableObject trigger;
@@ -27,6 +28,8 @@ public class KeypadControl : MonoBehaviour
         string firstThree = currentValue.Substring(1, length - 1);
         currentValue = firstThree + c;
         UpdateDisplay();
+        if (!enterNeeded)
+            CheckValue();
         Debug.Log(currentValue);
     }
 
