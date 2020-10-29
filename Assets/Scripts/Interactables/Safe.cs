@@ -9,6 +9,7 @@ public class Safe : InteractComponent
     public GameObject keypadCanvas;
     public GameManager manager;
     public Material unlockedMaterial;
+    public Transform viewPoint;
 
     void Start() {
         solved = false;
@@ -18,16 +19,24 @@ public class Safe : InteractComponent
         if (solved) return;
         manager.SetActiveCanvas(keypadCanvas);
         manager.DisablePlayerMovement();
+        if (viewPoint)
+            manager.SetCamera(viewPoint);
     }
 
     public override void TriggerPuzzle(string name) {
         Debug.Log("Safe opened");
-        GetComponent<Renderer>().material = unlockedMaterial;
+
+        if (unlockedMaterial)
+            GetComponent<Renderer>().material = unlockedMaterial;
+
         solved = true;
         FinishInteract();
     }
 
     public void FinishInteract() {
+        if (viewPoint)
+            manager.ResetCamera();
+
         manager.ResetCanvas();
         manager.AllowPlayerMovement();
     }

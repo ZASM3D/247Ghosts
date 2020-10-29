@@ -5,6 +5,7 @@ using UnityEngine;
 public class GameManager : MonoBehaviour
 {
     private GameObject activeCanvas;
+    private Camera playerCamera;
     private CharactrerControl playerMove;
     private MouseLook playerLook;
 
@@ -18,6 +19,7 @@ public class GameManager : MonoBehaviour
     void Start() {
         playerMove = player.GetComponent<CharactrerControl>();
         playerLook = player.GetComponent<MouseLook>();
+        playerCamera = Camera.main;
     }
 
     public void SetActiveCanvas(GameObject newCanvas) {
@@ -46,5 +48,16 @@ public class GameManager : MonoBehaviour
         playerMove.enabled = true;
         playerLook.enabled = true;
         Cursor.lockState = CursorLockMode.Locked;
+    }
+
+    public void SetCamera(Transform view) {
+        playerCamera.transform.position = view.position;
+        playerCamera.transform.rotation = view.rotation;
+    }
+
+    public void ResetCamera() {
+        playerCamera.transform.position = player.transform.GetChild(0).GetChild(0).position;
+        playerCamera.transform.rotation = Quaternion.LookRotation(player.transform.forward);
+
     }
 }
