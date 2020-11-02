@@ -6,12 +6,19 @@ public class Safe : InteractComponent
 {
     private GameObject oldCanvas;
     private bool solved;
+    private GameManager manager;
     public GameObject keypadCanvas;
-    public GameManager manager;
     public Material unlockedMaterial;
     public Transform viewPoint;
 
     void Start() {
+        GameObject man = GameObject.Find("Game Manager");
+        if (!man) {
+            Debug.LogError("Add a Game Manger to the scene (It's in prefabs)");
+            Debug.Break();
+        }
+        manager = man.GetComponent<GameManager>();
+
         solved = false;
     }
 
