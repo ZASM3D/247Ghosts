@@ -8,12 +8,7 @@ public class Note : InteractComponent
     public string noteText;
 
     void Start() {
-        GameObject man = GameObject.Find("Game Manager");
-        if (!man) {
-            Debug.LogError("Add a Game Manger to the scene (It's in prefabs)");
-            Debug.Break();
-        }
-        manager = man.GetComponent<GameManager>();
+        manager = GameState.Manager;
     }
 
     public override void Interact() {

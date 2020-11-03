@@ -6,6 +6,10 @@ public class PlayerInventory : MonoBehaviour
 {
     private HashSet<string> heldItems;
 
+    void Start() {
+        heldItems = new HashSet<string>();
+    }
+
     public void AddItem(string item) {
         heldItems.Add(item);
     }

@@ -10,18 +10,20 @@ public class GameManager : MonoBehaviour
     private Camera playerCamera;
     private CharactrerControl playerMove;
     private MouseLook playerLook;
+    private PlayerInventory inventory;
 
     public GameObject defaultCanvas;
     public GameObject notesCanvas;
-    public GameObject player;
 
     void Awake() {
+        GameState.Manager = this;
         activeCanvas = defaultCanvas;
     }
 
     void Start() {
-        playerMove = player.GetComponent<CharactrerControl>();
-        playerLook = player.GetComponent<MouseLook>();
+        playerMove = GameState.Player.GetComponent<CharactrerControl>();
+        playerLook = GameState.Player.GetComponent<MouseLook>();
+        inventory = GameState.Player.GetComponent<PlayerInventory>();
         playerCamera = Camera.main;
     }
 
@@ -59,9 +61,8 @@ public class GameManager : MonoBehaviour
     }
 
     public void ResetCamera() {
-        playerCamera.transform.position = player.transform.GetChild(0).GetChild(0).position;
-        playerCamera.transform.rotation = Quaternion.LookRotation(player.transform.forward);
-
+        playerCamera.transform.position = GameState.Player.transform.GetChild(0).GetChild(0).position;
+        playerCamera.transform.rotation = Quaternion.LookRotation(GameState.Player.transform.forward);
     }
 
     public void LoadNote(string text) {
@@ -73,5 +74,19 @@ public class GameManager : MonoBehaviour
     public void UnloadNote() {
         ResetCanvas();
         AllowPlayerMovement();
+    }
+
+    public bool CheckPlayerHasItem(string item) {
+        return inventory.HasItem(item);
+    }
+
+    public void GivePlayerItem(string item) {
+        if (!inventory.HasItem(item))
+            inventory.AddItem(item);
+    }
+
+    public void RemoveItem(string item) {
+        if (inventory.HasItem(item))
+            inventory.RemoveItem(item);
     }
 }

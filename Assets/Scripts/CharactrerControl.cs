@@ -12,6 +12,11 @@ public class CharactrerControl : MonoBehaviour
 
     public float gravity = -9.8f;
     public float speed = 5.0f;
+
+    void Awake() {
+        GameState.Player = this.gameObject;
+    }
+
     // Start is called before the first frame update
     void Start()
     {
