@@ -11844,6 +11844,11 @@ PrefabInstance:
       propertyPath: m_LocalRotation.y
       value: -0.000000029802319
       objectReference: {fileID: 0}
+    - target: {fileID: 234274184800444808, guid: 268bbbb3771c74562aa0ebf99b099326,
+        type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: 44b718228b48dd34994c0cc7b4c0c491, type: 2}
     - target: {fileID: 919132149155446097, guid: 268bbbb3771c74562aa0ebf99b099326,
         type: 3}
       propertyPath: m_Name
