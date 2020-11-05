@@ -9,7 +9,7 @@ public class Door : ObjectLock
 
     public override void Interact() {
         if (open) return;
-        if (GameState.Manager.CheckPlayerHasItem(requiredObject)) {
+        if (string.Compare(requiredObject, "") == 0|| GameState.Manager.CheckPlayerHasItem(requiredObject)) {
             Debug.Log("Opened");
             open = true;
             this.transform.position = openLocation.position;
