@@ -8,8 +8,9 @@ public class Safe : InteractComponent
     private bool solved;
     private GameManager manager;
     public GameObject keypadCanvas;
-    public Material unlockedMaterial;
     public Transform viewPoint;
+    public GameObject door;
+    public GameObject openDoor;
 
     void Start() {
         manager = GameState.Manager;
@@ -25,10 +26,12 @@ public class Safe : InteractComponent
     }
 
     public override void TriggerPuzzle(string name) {
+        if (solved) return;
         Debug.Log("Safe opened");
 
-        if (unlockedMaterial)
-            GetComponent<Renderer>().material = unlockedMaterial;
+        door.SetActive(false);
+        openDoor.SetActive(true);
+        this.transform.GetComponent<BoxCollider>().enabled = false;
 
         solved = true;
         FinishInteract();
