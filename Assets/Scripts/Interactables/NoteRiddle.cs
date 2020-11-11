@@ -1,20 +1,24 @@
-﻿using System.Collections;
+using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
-public class Safe : InteractComponent
+public class NoteRiddle : InteractComponent
 {
-    private GameObject oldCanvas;
     private bool solved;
     private GameManager manager;
     public GameObject keypadCanvas;
     public Transform viewPoint;
-    public GameObject door;
-    public GameObject openDoor;
+    public GameObject note;
+    public GameObject secret;
+    public GameObject prompt;
+
 
     void Start() {
         manager = GameState.Manager;
         solved = false;
+        note.SetActive(true);
+        secret.SetActive(false);
+        prompt.SetActive(true);
         manager.ResetCanvas();
     }
 
@@ -28,11 +32,12 @@ public class Safe : InteractComponent
 
     public override void TriggerPuzzle(string name) {
         if (solved) return;
-        Debug.Log("Safe opened");
+        Debug.Log("Riddle solved");
 
-        door.SetActive(false);
-        openDoor.SetActive(true);
-        this.transform.GetComponent<BoxCollider>().enabled = false;
+        note.SetActive(false);
+        secret.SetActive(true);
+        prompt.SetActive(false);
+       // this.transform.GetComponent<BoxCollider>().enabled = false;
 
         solved = true;
         FinishInteract();
