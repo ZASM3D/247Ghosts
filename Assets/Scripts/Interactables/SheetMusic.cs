@@ -12,6 +12,6 @@ public class SheetMusic : InteractComponent
 
     public override void Interact() {
         manager.DisablePlayerMovement();
-
+        
     }
 }
