@@ -531,6 +531,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: Nikari side table
       objectReference: {fileID: 0}
+    - target: {fileID: 2838839247425037261, guid: c47e2a9ece8684c698e3c46cae77baa5,
+        type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: 922142ec043954a4e942031492f5cd15, type: 2}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: c47e2a9ece8684c698e3c46cae77baa5, type: 3}
 --- !u!1001 &4159253
@@ -1373,6 +1378,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: glass_bottle (1)
       objectReference: {fileID: 0}
+    - target: {fileID: 1071784870429217374, guid: 9c78cb50e3d194ef18a349dbac3c6cd4,
+        type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: 861740e606f1f4980ae6b0a0e3a4a5b9, type: 2}
     - target: {fileID: 5465976100049740297, guid: 9c78cb50e3d194ef18a349dbac3c6cd4,
         type: 3}
       propertyPath: m_LocalPosition.y
@@ -3621,6 +3631,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: glass_bottle (4)
       objectReference: {fileID: 0}
+    - target: {fileID: 1071784870429217374, guid: 9c78cb50e3d194ef18a349dbac3c6cd4,
+        type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: 861740e606f1f4980ae6b0a0e3a4a5b9, type: 2}
     - target: {fileID: 5465976100049740297, guid: 9c78cb50e3d194ef18a349dbac3c6cd4,
         type: 3}
       propertyPath: m_LocalPosition.y
@@ -4016,6 +4031,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: glass_bottle (3)
       objectReference: {fileID: 0}
+    - target: {fileID: 1071784870429217374, guid: 9c78cb50e3d194ef18a349dbac3c6cd4,
+        type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: 861740e606f1f4980ae6b0a0e3a4a5b9, type: 2}
     - target: {fileID: 5465976100049740297, guid: 9c78cb50e3d194ef18a349dbac3c6cd4,
         type: 3}
       propertyPath: m_LocalPosition.y
@@ -22592,6 +22612,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: glass_bottle (6)
       objectReference: {fileID: 0}
+    - target: {fileID: 1071784870429217374, guid: 9c78cb50e3d194ef18a349dbac3c6cd4,
+        type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: 861740e606f1f4980ae6b0a0e3a4a5b9, type: 2}
     - target: {fileID: 5465976100049740297, guid: 9c78cb50e3d194ef18a349dbac3c6cd4,
         type: 3}
       propertyPath: m_LocalPosition.y
@@ -30079,6 +30104,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: glass_bottle
       objectReference: {fileID: 0}
+    - target: {fileID: 1071784870429217374, guid: 9c78cb50e3d194ef18a349dbac3c6cd4,
+        type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: 861740e606f1f4980ae6b0a0e3a4a5b9, type: 2}
     - target: {fileID: 5465976100049740297, guid: 9c78cb50e3d194ef18a349dbac3c6cd4,
         type: 3}
       propertyPath: m_LocalPosition.y
@@ -38041,6 +38071,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: glass_bottle (2)
       objectReference: {fileID: 0}
+    - target: {fileID: 1071784870429217374, guid: 9c78cb50e3d194ef18a349dbac3c6cd4,
+        type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: 861740e606f1f4980ae6b0a0e3a4a5b9, type: 2}
     - target: {fileID: 5465976100049740297, guid: 9c78cb50e3d194ef18a349dbac3c6cd4,
         type: 3}
       propertyPath: m_LocalPosition.y
@@ -54928,6 +54963,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: glass_bottle (5)
       objectReference: {fileID: 0}
+    - target: {fileID: 1071784870429217374, guid: 9c78cb50e3d194ef18a349dbac3c6cd4,
+        type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: 861740e606f1f4980ae6b0a0e3a4a5b9, type: 2}
     - target: {fileID: 5465976100049740297, guid: 9c78cb50e3d194ef18a349dbac3c6cd4,
         type: 3}
       propertyPath: m_LocalPosition.y
