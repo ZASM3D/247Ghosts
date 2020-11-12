@@ -28187,6 +28187,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: wedding_dress_ver_1
       objectReference: {fileID: 0}
+    - target: {fileID: 5113076651737206730, guid: 9b6dde5e82c4748648b011ee3abd622a,
+        type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: b8af8b50a2fe31f4ea91df9b43783359, type: 2}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 9b6dde5e82c4748648b011ee3abd622a, type: 3}
 --- !u!1 &913782726
