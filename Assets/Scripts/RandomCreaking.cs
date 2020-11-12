@@ -20,7 +20,7 @@ public class RandomCreaking : MonoBehaviour
 
         clipIndex =  Random.Range(0, clips.Length);
         audio.PlayOneShot(clips[clipIndex], 1f);
-        Debug.Log(clips[clipIndex]);
+        //Debug.Log(clips[clipIndex]);
 
         yield return new WaitForSeconds(clips[clipIndex].length);
         StartCoroutine(PlaySound());
