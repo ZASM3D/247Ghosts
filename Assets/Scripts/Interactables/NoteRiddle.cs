@@ -19,7 +19,7 @@ public class NoteRiddle : InteractComponent
         note.SetActive(true);
         secret.SetActive(false);
         prompt.SetActive(true);
-        manager.ResetCanvas();
+        //manager.ResetCanvas();
     }
 
     public override void Interact() {
@@ -34,7 +34,7 @@ public class NoteRiddle : InteractComponent
         if (solved) return;
         Debug.Log("Riddle solved");
 
-        note.SetActive(false);
+        //note.SetActive(false);
         secret.SetActive(true);
         prompt.SetActive(false);
        // this.transform.GetComponent<BoxCollider>().enabled = false;
