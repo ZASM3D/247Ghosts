@@ -27,8 +27,9 @@ public class Mirror : InteractComponent
         Debug.Log("Triggered");
         if (index > 0) {
         	lilyText[index - 1].SetActive(false);
+            lilyText[index].SetActive(true);
+        	index = (index + 1) % lilyText.Length;
+            Debug.Log(index);
         }
-    	lilyText[index].SetActive(true);
-    	index = (index + 1) % lilyText.Length;
     }
 }

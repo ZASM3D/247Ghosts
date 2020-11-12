@@ -5706,7 +5706,7 @@ GameObject:
   - component: {fileID: 153099420}
   - component: {fileID: 153099421}
   - component: {fileID: 153099422}
-  m_Layer: 2
+  m_Layer: 0
   m_Name: Lily Mirror Dialogue
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -5768,8 +5768,8 @@ BoxCollider:
   m_IsTrigger: 0
   m_Enabled: 1
   serializedVersion: 2
-  m_Size: {x: 5.696594, y: 8.844875, z: 0.3971346}
-  m_Center: {x: 0.20027597, y: -0.92243767, z: -0.060590368}
+  m_Size: {x: 5.6947393, y: 7.308586, z: 0.30306107}
+  m_Center: {x: 0.22187297, y: -1.3308258, z: -0.0031687764}
 --- !u!1 &157703836
 GameObject:
   m_ObjectHideFlags: 0
