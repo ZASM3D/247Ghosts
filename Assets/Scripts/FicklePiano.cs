@@ -16,6 +16,6 @@ public class FicklePiano : MonoBehaviour
     }
 
     void OnTriggerExit(Collider other) {
-        source.PlayDelayed(1.0f);
+        source.PlayDelayed(Random.Range(0.0f, 70.0f));
     }
 }
