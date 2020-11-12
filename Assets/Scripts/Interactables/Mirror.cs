@@ -20,10 +20,11 @@ public class Mirror : InteractComponent
     // Update is called once per frame
     void Update()
     {
-        
+
     }
 
     public override void Interact() {
+        Debug.Log("Triggered");
         if (index > 0) {
         	lilyText[index - 1].SetActive(false);
         }
