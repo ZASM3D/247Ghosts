@@ -4,7 +4,6 @@ using UnityEngine;
 
 public class Mirror : InteractComponent
 {
-	private GameManager manager;
     public GameObject[] lilyText;
     private int index;
 
@@ -25,7 +24,6 @@ public class Mirror : InteractComponent
     }
 
     public override void Interact() {
-        manager.DisablePlayerMovement();
         if (index > 0) {
         	lilyText[index - 1].SetActive(false);
         }
