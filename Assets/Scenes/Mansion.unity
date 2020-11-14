@@ -9513,7 +9513,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: 'Fetch me the necklace from the safe and I may allow you to proceed
+  m_text: 'Fetch me the object hidden in the safe and I may allow you to proceed
 
     -L'
   m_isRightToLeft: 0
@@ -10551,7 +10551,8 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: Find who I love most and you will have a key to discover the truth.
+  m_text: Find out who I love most and you will have a key to discover the truth
+    in my father's room.
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
   m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
@@ -20638,8 +20639,9 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: "We were cursed\u2014cursed by my father's secrets to remain here as ghosts.
-    Only you can free all of us. The answers are in this house.\n-J"
+  m_text: "The three of us were cursed\u2014cursed by my father's secrets to remain
+    here as ghosts. Only you can help us. The answers are in my late father's room
+    upstairs.\n-J"
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
   m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
@@ -50301,8 +50303,8 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: "If you give me the necklace, I will restore to life one who deserves a
-    second chance at it\u2014the one I love most."
+  m_text: "If you give me the necklace, I will save one who deserves a second chance
+    at it\u2014the one I love most."
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
   m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
@@ -62611,10 +62613,9 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: 'The necklace has an incredible power. But it can only be given to one,
-    and there are three ghosts in the house.
-
-    -P'
+  m_text: "The necklace has an incredible power, but it can only be given to one
+    of us to wield. Find it and choose\u2014only by choosing can you free all of
+    us.\n-P"
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
   m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
@@ -66782,7 +66783,7 @@ MonoBehaviour:
     m_PersistentCalls:
       m_Calls: []
   m_text: Another of death's ironies. In life, I was constantly grieving. You have
-    to have a bit of a dark sense of humor to last, so I suppose this fits.
+    to have a bit of a dark sense of humor to grieve that much.
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
   m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
