@@ -13,6 +13,7 @@ GameObject:
   - component: {fileID: 8402766119913665300}
   - component: {fileID: 8402766119913665301}
   - component: {fileID: 8402766119913665298}
+  - component: {fileID: 7392415897117391828}
   m_Layer: 0
   m_Name: Note
   m_TagString: Untagged
@@ -109,7 +110,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 871838e9a985eb24fb7af34bb4f4be67, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  manager: {fileID: 0}
   noteText: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus feugiat,
     nibh id placerat sagittis, augue lorem pellentesque lacus, at tincidunt nulla
     ipsum sed magna. Phasellus nec risus sed ante pharetra vehicula. Sed suscipit
@@ -118,3 +118,15 @@ MonoBehaviour:
     interdum ac orci at pulvinar. Suspendisse quis suscipit risus, ut pellentesque
     diam. Proin ornare, arcu nec suscipit facilisis, enim arcu elementum ex, at blandit
     sem felis id mauris.
+--- !u!114 &7392415897117391828
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8402766119913665299}
+  m_Enabled: 0
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 61fe827126d57492e8e32c42a5663a1b, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 

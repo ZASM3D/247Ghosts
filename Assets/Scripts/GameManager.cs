@@ -14,6 +14,7 @@ public class GameManager : MonoBehaviour
 
     public GameObject defaultCanvas;
     public GameObject notesCanvas;
+    public GameObject sheetMusicCanvas;
 
     void Awake() {
         GameState.Manager = this;
@@ -69,6 +70,10 @@ public class GameManager : MonoBehaviour
         SetActiveCanvas(notesCanvas);
         Text noteBody = notesCanvas.transform.GetChild(1).GetComponent<Text>();
         noteBody.text = text;
+    }
+
+    public void LoadSheetMusic() {
+        SetActiveCanvas(sheetMusicCanvas);
     }
 
     public void UnloadNote() {
