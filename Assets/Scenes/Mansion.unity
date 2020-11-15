@@ -1711,12 +1711,12 @@ PrefabInstance:
     - target: {fileID: 8402766119913665298, guid: 3233ec71d9b81574290bdc3e23644f13,
         type: 3}
       propertyPath: noteText
-      value: 'Mr. Q: The family is doing poorly. Since the death of their only son
-        40 years ago, the parents have lost much of their livelihood. They have moved
-        to the outskirts of town, away from the prying eyes eager to witness their
-        downfall. If you still wish to improve their situation, a donation of some
-        of your considerable wealth would improve their condition enormously. If
-        not, the matter is resolved.'
+      value: Jeffrey-- The family is doing poorly. Since the death of their only
+        son 40 years ago, the parents have lost much of their livelihood. They have
+        moved to the outskirts of town, away from the prying eyes eager to witness
+        their downfall. If you still wish to improve their situation, a donation
+        of some of your considerable wealth would improve their condition enormously.
+        If not, the matter is resolved.
       objectReference: {fileID: 0}
     - target: {fileID: 8402766119913665298, guid: 3233ec71d9b81574290bdc3e23644f13,
         type: 3}
@@ -26086,10 +26086,11 @@ PrefabInstance:
     - target: {fileID: 8402766119913665298, guid: 3233ec71d9b81574290bdc3e23644f13,
         type: 3}
       propertyPath: noteText
-      value: "A man came by this morning. He said Sebastien\u2019s body had been
+      value: "A man came by this morning. He said my husband\u2019s body had been
         found on the edge of the woods outside of town. He said no suspect had been
         named, but he said it in such a way that I believe myself to be the prime
-        suspect. Oh well -- perhaps the prison will be far away from here."
+        suspect. I suppose it\u2019s only right they send me to prison: two dead
+        husbands is two too many."
       objectReference: {fileID: 0}
     - target: {fileID: 8402766119913665299, guid: 3233ec71d9b81574290bdc3e23644f13,
         type: 3}
