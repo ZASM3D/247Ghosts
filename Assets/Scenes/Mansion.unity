@@ -2071,12 +2071,10 @@ PrefabInstance:
     - target: {fileID: 8402766119913665298, guid: 3233ec71d9b81574290bdc3e23644f13,
         type: 3}
       propertyPath: noteText
-      value: "Today was the 25th anniversary of Archie\u2019s death. I went to his
-        grave. As ever, I feel the cold hands of regret on my throat. It\u2019s been
-        so long since the house had guests. Lily brings her flowers, Petunia plays
-        the piano. It is filled with life, for the first time in years. For so many
-        years, I have been alone. How can I bear to reach out after what happened
-        with Archie?"
+      value: "Lily and Petunia have been watching me with caution since this morning.
+        It\u2019s as if I\u2019m a dangerous caged animal, and they are unsure when
+        I will lash out. It is like this every year on the anniversary of his death
+        -- they feel I will lash out with grief or regret. "
       objectReference: {fileID: 0}
     - target: {fileID: 8402766119913665299, guid: 3233ec71d9b81574290bdc3e23644f13,
         type: 3}
@@ -65409,13 +65407,11 @@ PrefabInstance:
     - target: {fileID: 8402766119913665298, guid: 3233ec71d9b81574290bdc3e23644f13,
         type: 3}
       propertyPath: noteText
-      value: "Mr. Q: If you are reading this, I am frankly surprised you decided
-        to come, after all, this place is supposed to be haunted by my sister, or
-        is it one of her husbands? It does not matter, I have never put much stock
-        in the gossip of this wretched town, and I am pleased you do not either.
-        I am busy studying some of my father\u2019s notes, you may let yourself in
-        with the key hidden in the book pile on the table behind you. Meet me in
-        my study. We have much to discuss."
+      value: "It seems you\u2019ve finally arrived. I must admit that I had not expected
+        anyone to show, what with the horrendous rumours of our home being haunted.
+        Nevertheless, I much appreciate your joining us, as I have a task that only
+        you can accomplish. There\u2019s a key hidden in the stack of books to your
+        left -- meet me upstairs when you\u2019re ready."
       objectReference: {fileID: 0}
     - target: {fileID: 8402766119913665298, guid: 3233ec71d9b81574290bdc3e23644f13,
         type: 3}
