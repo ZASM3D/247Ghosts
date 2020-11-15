@@ -7,15 +7,14 @@ public class Door : ObjectLock
     private bool open = false;
     public Transform openLocation;
 
-    public override void Interact() {
-        Debug.Log("Interact with: " + this.gameObject);
+    void Start() {
+        removeObjects = false;
+    }
+
+    public override void UnlockAction() {
         if (open) return;
-        if (string.Compare(requiredObject, "") == 0|| GameState.Manager.CheckPlayerHasItem(requiredObject)) {
-            Debug.Log("Opened");
-            open = true;
-            this.transform.position = openLocation.position;
-            this.transform.rotation = openLocation.rotation;
-            //GameState.Manager.RemoveItem(requiredObject);
-        }
+        open = true;
+        this.transform.position = openLocation.position;
+        this.transform.rotation = openLocation.rotation;
     }
 }

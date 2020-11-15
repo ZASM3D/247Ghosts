@@ -4,14 +4,21 @@ using UnityEngine;
 
 public class ObjectLock : InteractComponent
 {
-    public string requiredObject;
+    public string[] requiredObjects;
+    public bool removeObjects = true;
 
     public override void Interact() {
-        if (GameState.Manager.CheckPlayerHasItem(requiredObject)) {
-            // ...do the thing
-            GameState.Manager.RemoveItem(requiredObject);
-            Debug.Log("Unlocked with " + requiredObject);
-            this.gameObject.SetActive(false);
+        foreach (string obj in requiredObjects) {
+            if (!GameState.Manager.CheckPlayerHasItem(obj))
+                return;
+
+            if (removeObjects)
+                GameState.Manager.RemoveItem(obj);
         }
+        UnlockAction();
+    }
+
+    public virtual void UnlockAction() {
+        this.gameObject.SetActive(false);
     }
 }

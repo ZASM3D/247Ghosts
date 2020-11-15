@@ -8060,8 +8060,8 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 209856538}
-  - component: {fileID: 209856539}
   - component: {fileID: 209856540}
+  - component: {fileID: 209856539}
   m_Layer: 0
   m_Name: Place Setting Puzzle
   m_TagString: Untagged
@@ -8077,7 +8077,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 209856537}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 42.79204, y: -5.1132016, z: 42.93299}
+  m_LocalPosition: {x: 46.29, y: -5.1132016, z: 18.02}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
   - {fileID: 1457020122}
@@ -8086,8 +8086,8 @@ Transform:
   m_Father: {fileID: 1473510679}
   m_RootOrder: 27
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!135 &209856539
-SphereCollider:
+--- !u!65 &209856539
+BoxCollider:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
@@ -8097,8 +8097,8 @@ SphereCollider:
   m_IsTrigger: 0
   m_Enabled: 1
   serializedVersion: 2
-  m_Radius: 5
-  m_Center: {x: 3, y: 0, z: -25}
+  m_Size: {x: 1, y: 0.65027523, z: 1.5012503}
+  m_Center: {x: -0.64, y: 1.0248623, z: 0.7119107}
 --- !u!114 &209856540
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -8111,10 +8111,11 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: fc37fb2f7e9ba471992522eca973d8da, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  requiredObjects: []
+  removeObjects: 1
   secret: {fileID: 521547595}
   prompt: {fileID: 1683814608}
   foundSpoon: {fileID: 1457020123}
-  requiredObject: hidden spoon
 --- !u!1 &210068256
 GameObject:
   m_ObjectHideFlags: 0
@@ -16291,8 +16292,8 @@ GameObject:
     type: 3}
   m_PrefabInstance: {fileID: 406493162}
   m_PrefabAsset: {fileID: 0}
---- !u!136 &406493165
-CapsuleCollider:
+--- !u!65 &406493165
+BoxCollider:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
@@ -16301,10 +16302,9 @@ CapsuleCollider:
   m_Material: {fileID: 0}
   m_IsTrigger: 0
   m_Enabled: 1
-  m_Radius: 7
-  m_Height: 1
-  m_Direction: 2
-  m_Center: {x: 0, y: 0, z: 4}
+  serializedVersion: 2
+  m_Size: {x: 7.343054, y: 2.7893333, z: 14.196129}
+  m_Center: {x: -3.5322142, y: 0.8946666, z: 4.9608803}
 --- !u!114 &406493166
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -20608,7 +20608,7 @@ RectTransform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 521547595}
   m_LocalRotation: {x: 0, y: 0.7071068, z: -0, w: -0.7071068}
-  m_LocalPosition: {x: 0, y: 0, z: -23.18}
+  m_LocalPosition: {x: 0, y: 0, z: 1.8210001}
   m_LocalScale: {x: 0.77273, y: 1, z: 1.29412}
   m_Children: []
   m_Father: {fileID: 209856538}
@@ -20616,7 +20616,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 270, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 5.73, y: 3.51}
+  m_AnchoredPosition: {x: 2.1999974, y: 3.51}
   m_SizeDelta: {x: 3, y: 7}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &521547597
@@ -32950,7 +32950,15 @@ PrefabInstance:
     m_TransformParent: {fileID: 645333981}
     m_Modifications:
     - target: {fileID: 632968481, guid: 0cd5d536bca3b18429865d73843025d6, type: 3}
+      propertyPath: requiredObjects.Array.size
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 632968481, guid: 0cd5d536bca3b18429865d73843025d6, type: 3}
       propertyPath: requiredObject
+      value: lily key
+      objectReference: {fileID: 0}
+    - target: {fileID: 632968481, guid: 0cd5d536bca3b18429865d73843025d6, type: 3}
+      propertyPath: requiredObjects.Array.data[0]
       value: lily key
       objectReference: {fileID: 0}
     - target: {fileID: 8575774581431177882, guid: 0cd5d536bca3b18429865d73843025d6,
@@ -41974,7 +41982,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 9f3100cd29034d34fa16efb0e1cb618b, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  requiredObject: front key
+  requiredObjects:
+  - front key
+  removeObjects: 1
   openLocation: {fileID: 673682215}
 --- !u!65 &1186582193
 BoxCollider:
@@ -46602,7 +46612,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 2423d91ce9f2800478cf64dfa398787a, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  requiredObject: ' necklace'
+  requiredObjects:
+  - ' necklace'
+  removeObjects: 1
 --- !u!4 &1325908005 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: -8679921383154817045, guid: 03963df7841a6488f8c2e8b072be16d4,
@@ -51748,7 +51760,7 @@ PrefabInstance:
     - target: {fileID: -8679921383154817045, guid: ada130f62174642f8ae75850c1b8a8c3,
         type: 3}
       propertyPath: m_LocalPosition.x
-      value: 2.56
+      value: -0.97
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: ada130f62174642f8ae75850c1b8a8c3,
         type: 3}
@@ -51758,7 +51770,7 @@ PrefabInstance:
     - target: {fileID: -8679921383154817045, guid: ada130f62174642f8ae75850c1b8a8c3,
         type: 3}
       propertyPath: m_LocalPosition.z
-      value: -23.771
+      value: 1.23
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: ada130f62174642f8ae75850c1b8a8c3,
         type: 3}
@@ -51839,20 +51851,6 @@ GameObject:
     type: 3}
   m_PrefabInstance: {fileID: 1457020121}
   m_PrefabAsset: {fileID: 0}
---- !u!136 &1457020125
-CapsuleCollider:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1457020123}
-  m_Material: {fileID: 0}
-  m_IsTrigger: 0
-  m_Enabled: 1
-  m_Radius: 30
-  m_Height: 30
-  m_Direction: 1
-  m_Center: {x: -5, y: 3, z: 5}
 --- !u!1001 &1459634052
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -54498,7 +54496,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 9f3100cd29034d34fa16efb0e1cb618b, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  requiredObject: missing book
+  requiredObjects:
+  - missing book
+  removeObjects: 1
   openLocation: {fileID: 443872594}
 --- !u!1 &1558385992
 GameObject:
@@ -57764,7 +57764,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 9f3100cd29034d34fa16efb0e1cb618b, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  requiredObject: 
+  requiredObjects: []
+  removeObjects: 1
   openLocation: {fileID: 273506964}
 --- !u!65 &1652187309
 BoxCollider:
@@ -59148,7 +59149,7 @@ RectTransform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1683814608}
   m_LocalRotation: {x: 0, y: 0.7071068, z: -0, w: -0.7071068}
-  m_LocalPosition: {x: 0, y: 0, z: -23.18}
+  m_LocalPosition: {x: 0, y: 0, z: 1.8210001}
   m_LocalScale: {x: 0.77273, y: 1, z: 1.29412}
   m_Children: []
   m_Father: {fileID: 209856538}
@@ -59156,7 +59157,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 270, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 5.73, y: 3.51}
+  m_AnchoredPosition: {x: 2.1999974, y: 3.51}
   m_SizeDelta: {x: 3, y: 7}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1683814610
@@ -63600,7 +63601,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 2423d91ce9f2800478cf64dfa398787a, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  requiredObject: hibiscus
+  requiredObjects: []
+  removeObjects: 1
 --- !u!65 &1788251242
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -67847,7 +67849,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 2423d91ce9f2800478cf64dfa398787a, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  requiredObject: watering can
+  requiredObjects: []
+  removeObjects: 1
 --- !u!65 &1916496563
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -77032,7 +77035,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 9f3100cd29034d34fa16efb0e1cb618b, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  requiredObject: front key
+  requiredObjects:
+  - front key
+  removeObjects: 1
   openLocation: {fileID: 1045415462}
 --- !u!65 &6127815327381126490
 BoxCollider:

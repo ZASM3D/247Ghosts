@@ -8,10 +8,10 @@ public class RandomCreaking : MonoBehaviour
     public float minDelay = 10.0f;
     public float maxDelay = 30.0f;
     private int clipIndex;
-    private AudioSource audio;
+    private AudioSource source;
 
     void Start() {
-        audio = gameObject.GetComponent<AudioSource>();
+        source = gameObject.GetComponent<AudioSource>();
         StartCoroutine(PlaySound());
     }
 
@@ -19,7 +19,7 @@ public class RandomCreaking : MonoBehaviour
         yield return new WaitForSeconds(Random.Range(minDelay, maxDelay));
 
         clipIndex =  Random.Range(0, clips.Length);
-        audio.PlayOneShot(clips[clipIndex], 1f);
+        source.PlayOneShot(clips[clipIndex], 1f);
         //Debug.Log(clips[clipIndex]);
 
         yield return new WaitForSeconds(clips[clipIndex].length);
