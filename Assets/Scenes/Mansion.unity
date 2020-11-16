@@ -1455,7 +1455,7 @@ PrefabInstance:
     - target: {fileID: -8679921383154817045, guid: 9c78cb50e3d194ef18a349dbac3c6cd4,
         type: 3}
       propertyPath: m_RootOrder
-      value: 31
+      value: 30
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: 9c78cb50e3d194ef18a349dbac3c6cd4,
         type: 3}
@@ -3099,12 +3099,6 @@ PrefabInstance:
       objectReference: {fileID: 2100000, guid: bdced03c5025bff46bd33cc92cd2b668, type: 2}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 3a61784d348464bc9a5e3fdbd53c0f5b, type: 3}
---- !u!4 &56160325 stripped
-Transform:
-  m_CorrespondingSourceObject: {fileID: 8402766119913665302, guid: 3233ec71d9b81574290bdc3e23644f13,
-    type: 3}
-  m_PrefabInstance: {fileID: 1780792506}
-  m_PrefabAsset: {fileID: 0}
 --- !u!1 &58973524
 GameObject:
   m_ObjectHideFlags: 0
@@ -4203,7 +4197,7 @@ PrefabInstance:
     - target: {fileID: -8679921383154817045, guid: 9c78cb50e3d194ef18a349dbac3c6cd4,
         type: 3}
       propertyPath: m_RootOrder
-      value: 34
+      value: 33
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: 9c78cb50e3d194ef18a349dbac3c6cd4,
         type: 3}
@@ -4698,7 +4692,7 @@ PrefabInstance:
     - target: {fileID: -8679921383154817045, guid: 9c78cb50e3d194ef18a349dbac3c6cd4,
         type: 3}
       propertyPath: m_RootOrder
-      value: 33
+      value: 32
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: 9c78cb50e3d194ef18a349dbac3c6cd4,
         type: 3}
@@ -7135,12 +7129,13 @@ PrefabInstance:
     - target: {fileID: 8402766119913665298, guid: 3233ec71d9b81574290bdc3e23644f13,
         type: 3}
       propertyPath: noteText
-      value: 'Very well, if Jeffrey is set on finding the necklace, I will make him
-        earn it. There are 7 bottles on my table with a note hidden under each one.
-        6 of the notes are lies, while one is the true method of finding the necklace.Here
-        are three hints to finding the correct bottle: the truth is not hidden at
-        either end of the row. The short bottles hold the same drink. The truth is
-        hidden under a bottle to the right of a medium-sized bottle.'
+      value: 'If the children are set on finding the necklace, then they will do
+        it in the way that I have planned. There are 7 bottles on my table with a
+        note hidden under each one. 6 of the notes are lies, while one holds the
+        true method of finding the necklace. Here are three hints to finding the
+        correct bottle: the truth is not hidden at either end of the row. The short
+        bottles hold the same drink. The truth is hidden under a bottle to the right
+        of a medium-sized bottle.'
       objectReference: {fileID: 0}
     - target: {fileID: 8402766119913665299, guid: 3233ec71d9b81574290bdc3e23644f13,
         type: 3}
@@ -7768,7 +7763,7 @@ PrefabInstance:
     - target: {fileID: 8402766119913665302, guid: 3233ec71d9b81574290bdc3e23644f13,
         type: 3}
       propertyPath: m_RootOrder
-      value: 24
+      value: 23
       objectReference: {fileID: 0}
     - target: {fileID: 8402766119913665302, guid: 3233ec71d9b81574290bdc3e23644f13,
         type: 3}
@@ -8257,10 +8252,8 @@ Transform:
   - {fileID: 1198439570}
   - {fileID: 1165309000}
   - {fileID: 1831127159}
-  - {fileID: 222253246}
   - {fileID: 2111461364}
   - {fileID: 1315459493}
-  - {fileID: 1688288242}
   - {fileID: 2061160748}
   - {fileID: 133181243}
   - {fileID: 1166715581}
@@ -8279,11 +8272,8 @@ Transform:
   - {fileID: 417463717}
   - {fileID: 1175414382}
   - {fileID: 439851181}
-  - {fileID: 1737337062}
   - {fileID: 24769565}
   - {fileID: 914310633}
-  - {fileID: 56160325}
-  - {fileID: 744984119}
   - {fileID: 492179131}
   - {fileID: 1590322307}
   - {fileID: 1743830754}
@@ -8490,12 +8480,6 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 220761046}
   m_Mesh: {fileID: 1406122642813789743, guid: 3b95b6a4a13e95e48846c3ed18ebb659, type: 3}
---- !u!4 &222253246 stripped
-Transform:
-  m_CorrespondingSourceObject: {fileID: 8402766119913665302, guid: 3233ec71d9b81574290bdc3e23644f13,
-    type: 3}
-  m_PrefabInstance: {fileID: 1110599672}
-  m_PrefabAsset: {fileID: 0}
 --- !u!4 &222320185 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 6282913007573709859, guid: 73261222f085607428cb4cef44ed297e,
@@ -9229,7 +9213,7 @@ PrefabInstance:
     - target: {fileID: 8402766119913665298, guid: 3233ec71d9b81574290bdc3e23644f13,
         type: 3}
       propertyPath: noteText
-      value: The flowers must be watered.
+      value: Lily's mirror must be turned sideways.
       objectReference: {fileID: 0}
     - target: {fileID: 8402766119913665299, guid: 3233ec71d9b81574290bdc3e23644f13,
         type: 3}
@@ -16196,7 +16180,7 @@ PrefabInstance:
     - target: {fileID: -8679921383154817045, guid: 268bbbb3771c74562aa0ebf99b099326,
         type: 3}
       propertyPath: m_RootOrder
-      value: 29
+      value: 28
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: 268bbbb3771c74562aa0ebf99b099326,
         type: 3}
@@ -18089,82 +18073,6 @@ PrefabInstance:
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: b88505445140edf41986091ba97bcdec, type: 3}
---- !u!1001 &465160361
-PrefabInstance:
-  m_ObjectHideFlags: 0
-  serializedVersion: 2
-  m_Modification:
-    m_TransformParent: {fileID: 213890749}
-    m_Modifications:
-    - target: {fileID: 8402766119913665298, guid: 3233ec71d9b81574290bdc3e23644f13,
-        type: 3}
-      propertyPath: noteText
-      value: 'Today was the day we were meant to leave, and Ambrose never arrived.
-        Had I been duped? Was this all a practical joke to torture me? What have
-        I done to deserve this? '
-      objectReference: {fileID: 0}
-    - target: {fileID: 8402766119913665299, guid: 3233ec71d9b81574290bdc3e23644f13,
-        type: 3}
-      propertyPath: m_Name
-      value: Note (35)
-      objectReference: {fileID: 0}
-    - target: {fileID: 8402766119913665302, guid: 3233ec71d9b81574290bdc3e23644f13,
-        type: 3}
-      propertyPath: m_LocalPosition.x
-      value: 34.282963
-      objectReference: {fileID: 0}
-    - target: {fileID: 8402766119913665302, guid: 3233ec71d9b81574290bdc3e23644f13,
-        type: 3}
-      propertyPath: m_LocalPosition.y
-      value: 14.988406
-      objectReference: {fileID: 0}
-    - target: {fileID: 8402766119913665302, guid: 3233ec71d9b81574290bdc3e23644f13,
-        type: 3}
-      propertyPath: m_LocalPosition.z
-      value: 25.947906
-      objectReference: {fileID: 0}
-    - target: {fileID: 8402766119913665302, guid: 3233ec71d9b81574290bdc3e23644f13,
-        type: 3}
-      propertyPath: m_LocalRotation.x
-      value: -0
-      objectReference: {fileID: 0}
-    - target: {fileID: 8402766119913665302, guid: 3233ec71d9b81574290bdc3e23644f13,
-        type: 3}
-      propertyPath: m_LocalRotation.y
-      value: -0
-      objectReference: {fileID: 0}
-    - target: {fileID: 8402766119913665302, guid: 3233ec71d9b81574290bdc3e23644f13,
-        type: 3}
-      propertyPath: m_LocalRotation.z
-      value: -0
-      objectReference: {fileID: 0}
-    - target: {fileID: 8402766119913665302, guid: 3233ec71d9b81574290bdc3e23644f13,
-        type: 3}
-      propertyPath: m_LocalRotation.w
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 8402766119913665302, guid: 3233ec71d9b81574290bdc3e23644f13,
-        type: 3}
-      propertyPath: m_RootOrder
-      value: 25
-      objectReference: {fileID: 0}
-    - target: {fileID: 8402766119913665302, guid: 3233ec71d9b81574290bdc3e23644f13,
-        type: 3}
-      propertyPath: m_LocalEulerAnglesHint.x
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 8402766119913665302, guid: 3233ec71d9b81574290bdc3e23644f13,
-        type: 3}
-      propertyPath: m_LocalEulerAnglesHint.y
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 8402766119913665302, guid: 3233ec71d9b81574290bdc3e23644f13,
-        type: 3}
-      propertyPath: m_LocalEulerAnglesHint.z
-      value: 0
-      objectReference: {fileID: 0}
-    m_RemovedComponents: []
-  m_SourcePrefab: {fileID: 100100000, guid: 3233ec71d9b81574290bdc3e23644f13, type: 3}
 --- !u!1 &468559286
 GameObject:
   m_ObjectHideFlags: 0
@@ -18526,10 +18434,11 @@ PrefabInstance:
     - target: {fileID: 8402766119913665298, guid: 3233ec71d9b81574290bdc3e23644f13,
         type: 3}
       propertyPath: noteText
-      value: "I fear that Jeffrey will soon learn of the existence of the necklace.
-        He has already begun down that same tortured path I once followed. I see
-        him with the book, the book that first informed me of the necklace\u2019s
-        existence, at most times of the day. I cannot let him succeed, and I must "
+      value: " I fear it is only a matter of time before the family should learn
+        of the necklace\u2019s existence. I can only hope that, in time, they will
+        put their petty squabbles away and come together to tame the object\u2019s
+        power. Only together can they truly free themselves from the necklace\u2019s
+        clutches."
       objectReference: {fileID: 0}
     - target: {fileID: 8402766119913665299, guid: 3233ec71d9b81574290bdc3e23644f13,
         type: 3}
@@ -18828,7 +18737,6 @@ Transform:
   - {fileID: 1338764973}
   - {fileID: 324910400}
   - {fileID: 1684017247}
-  - {fileID: 2084045022}
   - {fileID: 1391416151}
   - {fileID: 88186137}
   - {fileID: 770667152}
@@ -23639,7 +23547,9 @@ PrefabInstance:
       propertyPath: noteText
       value: 'Today was the day we were meant to leave, and Ambrose never arrived.
         Had I been duped? Was this all a practical joke to torture me? What have
-        I done to deserve this? '
+        I done to deserve this? // Ambrose has passed. Another tragic accident. I
+        shall mourn his loss as I would have mourned my own. Were that I had taken
+        his place! '
       objectReference: {fileID: 0}
     - target: {fileID: 8402766119913665299, guid: 3233ec71d9b81574290bdc3e23644f13,
         type: 3}
@@ -23978,7 +23888,7 @@ Transform:
   - {fileID: 1596715338}
   - {fileID: 1593860289}
   m_Father: {fileID: 213890749}
-  m_RootOrder: 33
+  m_RootOrder: 28
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &650357119
 GameObject:
@@ -24318,7 +24228,7 @@ PrefabInstance:
     - target: {fileID: 8402766119913665302, guid: 3233ec71d9b81574290bdc3e23644f13,
         type: 3}
       propertyPath: m_LocalPosition.x
-      value: 28.282963
+      value: 29.66
       objectReference: {fileID: 0}
     - target: {fileID: 8402766119913665302, guid: 3233ec71d9b81574290bdc3e23644f13,
         type: 3}
@@ -24328,7 +24238,7 @@ PrefabInstance:
     - target: {fileID: 8402766119913665302, guid: 3233ec71d9b81574290bdc3e23644f13,
         type: 3}
       propertyPath: m_LocalPosition.z
-      value: 21.827908
+      value: 24.9
       objectReference: {fileID: 0}
     - target: {fileID: 8402766119913665302, guid: 3233ec71d9b81574290bdc3e23644f13,
         type: 3}
@@ -26622,12 +26532,6 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 742098095}
   m_Mesh: {fileID: 1406122642813789743, guid: 3b95b6a4a13e95e48846c3ed18ebb659, type: 3}
---- !u!4 &744984119 stripped
-Transform:
-  m_CorrespondingSourceObject: {fileID: 8402766119913665302, guid: 3233ec71d9b81574290bdc3e23644f13,
-    type: 3}
-  m_PrefabInstance: {fileID: 1107356545}
-  m_PrefabAsset: {fileID: 0}
 --- !u!1 &745724315
 GameObject:
   m_ObjectHideFlags: 0
@@ -29170,7 +29074,7 @@ PrefabInstance:
     - target: {fileID: -8679921383154817045, guid: ce963fcc395661b4cbeb10b7a09f719d,
         type: 3}
       propertyPath: m_RootOrder
-      value: 30
+      value: 29
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: ce963fcc395661b4cbeb10b7a09f719d,
         type: 3}
@@ -29269,7 +29173,7 @@ PrefabInstance:
     - target: {fileID: -8679921383154817045, guid: 9c78cb50e3d194ef18a349dbac3c6cd4,
         type: 3}
       propertyPath: m_RootOrder
-      value: 36
+      value: 35
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: 9c78cb50e3d194ef18a349dbac3c6cd4,
         type: 3}
@@ -30479,7 +30383,7 @@ PrefabInstance:
     - target: {fileID: 8402766119913665302, guid: 3233ec71d9b81574290bdc3e23644f13,
         type: 3}
       propertyPath: m_RootOrder
-      value: 23
+      value: 22
       objectReference: {fileID: 0}
     - target: {fileID: 8402766119913665302, guid: 3233ec71d9b81574290bdc3e23644f13,
         type: 3}
@@ -31715,7 +31619,7 @@ PrefabInstance:
     - target: {fileID: 8955571854747617312, guid: 0cd5d536bca3b18429865d73843025d6,
         type: 3}
       propertyPath: m_RootOrder
-      value: 31
+      value: 30
       objectReference: {fileID: 0}
     - target: {fileID: 8955571854747617312, guid: 0cd5d536bca3b18429865d73843025d6,
         type: 3}
@@ -33619,7 +33523,7 @@ PrefabInstance:
     - target: {fileID: 8402766119913665302, guid: 3233ec71d9b81574290bdc3e23644f13,
         type: 3}
       propertyPath: m_RootOrder
-      value: 22
+      value: 21
       objectReference: {fileID: 0}
     - target: {fileID: 8402766119913665302, guid: 3233ec71d9b81574290bdc3e23644f13,
         type: 3}
@@ -34465,12 +34369,10 @@ PrefabInstance:
     - target: {fileID: 8402766119913665298, guid: 3233ec71d9b81574290bdc3e23644f13,
         type: 3}
       propertyPath: noteText
-      value: "Petunia struggles with grief. I\u2019ve started to believe that she
-        loved them, after all. I had to warn that boy, to whom Lily has an improper
-        attachment, to stay away from her. What was his name\u2014charles?\u2014
-        reminds me so much of Archie. She is upset with me now, but it was almost
-        like a reflex to warn them apart. Our family has been so unlucky in love
-        and friendship, so if she starts to befriend anyone, I fear for her. "
+      value: " Petunia struggles with grief. I\u2019ve started to believe that she
+        loved them, after all. Meanwhile, I had a very unpleasant conversation with
+        an older Algerian man about staying away from Lily. I don\u2019t trust strange
+        men with my niece. "
       objectReference: {fileID: 0}
     - target: {fileID: 8402766119913665299, guid: 3233ec71d9b81574290bdc3e23644f13,
         type: 3}
@@ -34768,7 +34670,7 @@ PrefabInstance:
     - target: {fileID: 8402766119913665302, guid: 3233ec71d9b81574290bdc3e23644f13,
         type: 3}
       propertyPath: m_RootOrder
-      value: 21
+      value: 20
       objectReference: {fileID: 0}
     - target: {fileID: 8402766119913665302, guid: 3233ec71d9b81574290bdc3e23644f13,
         type: 3}
@@ -39187,82 +39089,6 @@ Transform:
   m_Father: {fileID: 1989354231}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 90, z: 0}
---- !u!1001 &1107356545
-PrefabInstance:
-  m_ObjectHideFlags: 0
-  serializedVersion: 2
-  m_Modification:
-    m_TransformParent: {fileID: 213890749}
-    m_Modifications:
-    - target: {fileID: 8402766119913665298, guid: 3233ec71d9b81574290bdc3e23644f13,
-        type: 3}
-      propertyPath: noteText
-      value: "Petunia, it is not your fault. Ambrose, Casper, and Will\u2014I know
-        you think about them all the time. We all send our love your way. Please
-        stay well, dear friend. "
-      objectReference: {fileID: 0}
-    - target: {fileID: 8402766119913665299, guid: 3233ec71d9b81574290bdc3e23644f13,
-        type: 3}
-      propertyPath: m_Name
-      value: Note (11)
-      objectReference: {fileID: 0}
-    - target: {fileID: 8402766119913665302, guid: 3233ec71d9b81574290bdc3e23644f13,
-        type: 3}
-      propertyPath: m_LocalPosition.x
-      value: 30.252964
-      objectReference: {fileID: 0}
-    - target: {fileID: 8402766119913665302, guid: 3233ec71d9b81574290bdc3e23644f13,
-        type: 3}
-      propertyPath: m_LocalPosition.y
-      value: 14.738406
-      objectReference: {fileID: 0}
-    - target: {fileID: 8402766119913665302, guid: 3233ec71d9b81574290bdc3e23644f13,
-        type: 3}
-      propertyPath: m_LocalPosition.z
-      value: 26.08791
-      objectReference: {fileID: 0}
-    - target: {fileID: 8402766119913665302, guid: 3233ec71d9b81574290bdc3e23644f13,
-        type: 3}
-      propertyPath: m_LocalRotation.x
-      value: -0
-      objectReference: {fileID: 0}
-    - target: {fileID: 8402766119913665302, guid: 3233ec71d9b81574290bdc3e23644f13,
-        type: 3}
-      propertyPath: m_LocalRotation.y
-      value: -0
-      objectReference: {fileID: 0}
-    - target: {fileID: 8402766119913665302, guid: 3233ec71d9b81574290bdc3e23644f13,
-        type: 3}
-      propertyPath: m_LocalRotation.z
-      value: -0
-      objectReference: {fileID: 0}
-    - target: {fileID: 8402766119913665302, guid: 3233ec71d9b81574290bdc3e23644f13,
-        type: 3}
-      propertyPath: m_LocalRotation.w
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 8402766119913665302, guid: 3233ec71d9b81574290bdc3e23644f13,
-        type: 3}
-      propertyPath: m_RootOrder
-      value: 29
-      objectReference: {fileID: 0}
-    - target: {fileID: 8402766119913665302, guid: 3233ec71d9b81574290bdc3e23644f13,
-        type: 3}
-      propertyPath: m_LocalEulerAnglesHint.x
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 8402766119913665302, guid: 3233ec71d9b81574290bdc3e23644f13,
-        type: 3}
-      propertyPath: m_LocalEulerAnglesHint.y
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 8402766119913665302, guid: 3233ec71d9b81574290bdc3e23644f13,
-        type: 3}
-      propertyPath: m_LocalEulerAnglesHint.z
-      value: 0
-      objectReference: {fileID: 0}
-    m_RemovedComponents: []
-  m_SourcePrefab: {fileID: 100100000, guid: 3233ec71d9b81574290bdc3e23644f13, type: 3}
 --- !u!1001 &1108538972
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -39324,84 +39150,7 @@ PrefabInstance:
     - target: {fileID: 8402766119913665302, guid: 3233ec71d9b81574290bdc3e23644f13,
         type: 3}
       propertyPath: m_RootOrder
-      value: 28
-      objectReference: {fileID: 0}
-    - target: {fileID: 8402766119913665302, guid: 3233ec71d9b81574290bdc3e23644f13,
-        type: 3}
-      propertyPath: m_LocalEulerAnglesHint.x
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 8402766119913665302, guid: 3233ec71d9b81574290bdc3e23644f13,
-        type: 3}
-      propertyPath: m_LocalEulerAnglesHint.y
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 8402766119913665302, guid: 3233ec71d9b81574290bdc3e23644f13,
-        type: 3}
-      propertyPath: m_LocalEulerAnglesHint.z
-      value: 0
-      objectReference: {fileID: 0}
-    m_RemovedComponents: []
-  m_SourcePrefab: {fileID: 100100000, guid: 3233ec71d9b81574290bdc3e23644f13, type: 3}
---- !u!1001 &1110599672
-PrefabInstance:
-  m_ObjectHideFlags: 0
-  serializedVersion: 2
-  m_Modification:
-    m_TransformParent: {fileID: 213890749}
-    m_Modifications:
-    - target: {fileID: 8402766119913665298, guid: 3233ec71d9b81574290bdc3e23644f13,
-        type: 3}
-      propertyPath: noteText
-      value: "No -- no trip to South America, only a new husband, this one chosen
-        by my father for his excellent physical condition. He\u2019s rather handsome,
-        and I suppose he will be more fun than the last one. But really, Paul\u2019s
-        barely been dead three months and I haven't been out of the country ever! "
-      objectReference: {fileID: 0}
-    - target: {fileID: 8402766119913665299, guid: 3233ec71d9b81574290bdc3e23644f13,
-        type: 3}
-      propertyPath: m_Name
-      value: Note (28)
-      objectReference: {fileID: 0}
-    - target: {fileID: 8402766119913665302, guid: 3233ec71d9b81574290bdc3e23644f13,
-        type: 3}
-      propertyPath: m_LocalPosition.x
-      value: 28.912964
-      objectReference: {fileID: 0}
-    - target: {fileID: 8402766119913665302, guid: 3233ec71d9b81574290bdc3e23644f13,
-        type: 3}
-      propertyPath: m_LocalPosition.y
-      value: 14.908406
-      objectReference: {fileID: 0}
-    - target: {fileID: 8402766119913665302, guid: 3233ec71d9b81574290bdc3e23644f13,
-        type: 3}
-      propertyPath: m_LocalPosition.z
-      value: 24.077908
-      objectReference: {fileID: 0}
-    - target: {fileID: 8402766119913665302, guid: 3233ec71d9b81574290bdc3e23644f13,
-        type: 3}
-      propertyPath: m_LocalRotation.x
-      value: -0
-      objectReference: {fileID: 0}
-    - target: {fileID: 8402766119913665302, guid: 3233ec71d9b81574290bdc3e23644f13,
-        type: 3}
-      propertyPath: m_LocalRotation.y
-      value: -0
-      objectReference: {fileID: 0}
-    - target: {fileID: 8402766119913665302, guid: 3233ec71d9b81574290bdc3e23644f13,
-        type: 3}
-      propertyPath: m_LocalRotation.z
-      value: -0
-      objectReference: {fileID: 0}
-    - target: {fileID: 8402766119913665302, guid: 3233ec71d9b81574290bdc3e23644f13,
-        type: 3}
-      propertyPath: m_LocalRotation.w
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 8402766119913665302, guid: 3233ec71d9b81574290bdc3e23644f13,
-        type: 3}
-      propertyPath: m_RootOrder
-      value: 3
+      value: 27
       objectReference: {fileID: 0}
     - target: {fileID: 8402766119913665302, guid: 3233ec71d9b81574290bdc3e23644f13,
         type: 3}
@@ -41717,17 +41466,17 @@ PrefabInstance:
     - target: {fileID: 8402766119913665302, guid: 3233ec71d9b81574290bdc3e23644f13,
         type: 3}
       propertyPath: m_LocalPosition.x
-      value: 31.032963
+      value: 29.67
       objectReference: {fileID: 0}
     - target: {fileID: 8402766119913665302, guid: 3233ec71d9b81574290bdc3e23644f13,
         type: 3}
       propertyPath: m_LocalPosition.y
-      value: 14.718406
+      value: 14.75
       objectReference: {fileID: 0}
     - target: {fileID: 8402766119913665302, guid: 3233ec71d9b81574290bdc3e23644f13,
         type: 3}
       propertyPath: m_LocalPosition.z
-      value: 24.207909
+      value: 26.59
       objectReference: {fileID: 0}
     - target: {fileID: 8402766119913665302, guid: 3233ec71d9b81574290bdc3e23644f13,
         type: 3}
@@ -41752,7 +41501,7 @@ PrefabInstance:
     - target: {fileID: 8402766119913665302, guid: 3233ec71d9b81574290bdc3e23644f13,
         type: 3}
       propertyPath: m_RootOrder
-      value: 30
+      value: 28
       objectReference: {fileID: 0}
     - target: {fileID: 8402766119913665302, guid: 3233ec71d9b81574290bdc3e23644f13,
         type: 3}
@@ -44105,7 +43854,7 @@ PrefabInstance:
     - target: {fileID: 8402766119913665302, guid: 3233ec71d9b81574290bdc3e23644f13,
         type: 3}
       propertyPath: m_RootOrder
-      value: 27
+      value: 26
       objectReference: {fileID: 0}
     - target: {fileID: 8402766119913665302, guid: 3233ec71d9b81574290bdc3e23644f13,
         type: 3}
@@ -44559,8 +44308,8 @@ PrefabInstance:
       propertyPath: noteText
       value: 'Well, what a turn indeed! Paul passed in the night, and I am the recipient
         of a few less-than-endearing glances. It is a shame, I rather grew to like
-        him in the last few months. Perhaps a trip to South America is on the cards
-        yet? '
+        him in the last few months. I thought, perhaps, a trip to South America would
+        be on the cards, but no -- no trip to South America, only a new husband. '
       objectReference: {fileID: 0}
     - target: {fileID: 8402766119913665299, guid: 3233ec71d9b81574290bdc3e23644f13,
         type: 3}
@@ -48371,7 +48120,7 @@ PrefabInstance:
     - target: {fileID: -8679921383154817045, guid: 9c78cb50e3d194ef18a349dbac3c6cd4,
         type: 3}
       propertyPath: m_RootOrder
-      value: 32
+      value: 31
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: 9c78cb50e3d194ef18a349dbac3c6cd4,
         type: 3}
@@ -48662,7 +48411,7 @@ PrefabInstance:
     - target: {fileID: 8402766119913665302, guid: 3233ec71d9b81574290bdc3e23644f13,
         type: 3}
       propertyPath: m_RootOrder
-      value: 26
+      value: 25
       objectReference: {fileID: 0}
     - target: {fileID: 8402766119913665302, guid: 3233ec71d9b81574290bdc3e23644f13,
         type: 3}
@@ -50425,7 +50174,7 @@ PrefabInstance:
     - target: {fileID: 8402766119913665302, guid: 3233ec71d9b81574290bdc3e23644f13,
         type: 3}
       propertyPath: m_RootOrder
-      value: 25
+      value: 24
       objectReference: {fileID: 0}
     - target: {fileID: 8402766119913665302, guid: 3233ec71d9b81574290bdc3e23644f13,
         type: 3}
@@ -56144,7 +55893,7 @@ RectTransform:
   - {fileID: 1429312481}
   - {fileID: 275934355}
   m_Father: {fileID: 213890749}
-  m_RootOrder: 17
+  m_RootOrder: 15
   m_LocalEulerAnglesHint: {x: 0, y: 90, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
@@ -57108,82 +56857,6 @@ MeshRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_AdditionalVertexStreams: {fileID: 0}
---- !u!1001 &1601096686
-PrefabInstance:
-  m_ObjectHideFlags: 0
-  serializedVersion: 2
-  m_Modification:
-    m_TransformParent: {fileID: 482324043}
-    m_Modifications:
-    - target: {fileID: 8402766119913665298, guid: 3233ec71d9b81574290bdc3e23644f13,
-        type: 3}
-      propertyPath: noteText
-      value: 'The crew is growing louder in their protestations. I admit, I had believed
-        that we would have found the cave by now, but it is no matter. Onwards, we
-        must go! '
-      objectReference: {fileID: 0}
-    - target: {fileID: 8402766119913665299, guid: 3233ec71d9b81574290bdc3e23644f13,
-        type: 3}
-      propertyPath: m_Name
-      value: Note (18)
-      objectReference: {fileID: 0}
-    - target: {fileID: 8402766119913665302, guid: 3233ec71d9b81574290bdc3e23644f13,
-        type: 3}
-      propertyPath: m_LocalPosition.x
-      value: 8.267324
-      objectReference: {fileID: 0}
-    - target: {fileID: 8402766119913665302, guid: 3233ec71d9b81574290bdc3e23644f13,
-        type: 3}
-      propertyPath: m_LocalPosition.y
-      value: 0.8500004
-      objectReference: {fileID: 0}
-    - target: {fileID: 8402766119913665302, guid: 3233ec71d9b81574290bdc3e23644f13,
-        type: 3}
-      propertyPath: m_LocalPosition.z
-      value: -7.765193
-      objectReference: {fileID: 0}
-    - target: {fileID: 8402766119913665302, guid: 3233ec71d9b81574290bdc3e23644f13,
-        type: 3}
-      propertyPath: m_LocalRotation.x
-      value: -0
-      objectReference: {fileID: 0}
-    - target: {fileID: 8402766119913665302, guid: 3233ec71d9b81574290bdc3e23644f13,
-        type: 3}
-      propertyPath: m_LocalRotation.y
-      value: -0
-      objectReference: {fileID: 0}
-    - target: {fileID: 8402766119913665302, guid: 3233ec71d9b81574290bdc3e23644f13,
-        type: 3}
-      propertyPath: m_LocalRotation.z
-      value: -0
-      objectReference: {fileID: 0}
-    - target: {fileID: 8402766119913665302, guid: 3233ec71d9b81574290bdc3e23644f13,
-        type: 3}
-      propertyPath: m_LocalRotation.w
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 8402766119913665302, guid: 3233ec71d9b81574290bdc3e23644f13,
-        type: 3}
-      propertyPath: m_RootOrder
-      value: 20
-      objectReference: {fileID: 0}
-    - target: {fileID: 8402766119913665302, guid: 3233ec71d9b81574290bdc3e23644f13,
-        type: 3}
-      propertyPath: m_LocalEulerAnglesHint.x
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 8402766119913665302, guid: 3233ec71d9b81574290bdc3e23644f13,
-        type: 3}
-      propertyPath: m_LocalEulerAnglesHint.y
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 8402766119913665302, guid: 3233ec71d9b81574290bdc3e23644f13,
-        type: 3}
-      propertyPath: m_LocalEulerAnglesHint.z
-      value: 0
-      objectReference: {fileID: 0}
-    m_RemovedComponents: []
-  m_SourcePrefab: {fileID: 100100000, guid: 3233ec71d9b81574290bdc3e23644f13, type: 3}
 --- !u!1 &1602660130
 GameObject:
   m_ObjectHideFlags: 0
@@ -60121,12 +59794,6 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1686246385}
   m_Mesh: {fileID: 4744278145989869091, guid: 3b95b6a4a13e95e48846c3ed18ebb659, type: 3}
---- !u!4 &1688288242 stripped
-Transform:
-  m_CorrespondingSourceObject: {fileID: 8402766119913665302, guid: 3233ec71d9b81574290bdc3e23644f13,
-    type: 3}
-  m_PrefabInstance: {fileID: 1778641005}
-  m_PrefabAsset: {fileID: 0}
 --- !u!1 &1688506725
 GameObject:
   m_ObjectHideFlags: 0
@@ -62391,12 +62058,6 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1732681957}
   m_Mesh: {fileID: 10202, guid: 0000000000000000e000000000000000, type: 0}
---- !u!4 &1737337062 stripped
-Transform:
-  m_CorrespondingSourceObject: {fileID: 8402766119913665302, guid: 3233ec71d9b81574290bdc3e23644f13,
-    type: 3}
-  m_PrefabInstance: {fileID: 465160361}
-  m_PrefabAsset: {fileID: 0}
 --- !u!1 &1740227620 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 8531084230230199607, guid: 8fecd1da113624ed791a2de05fa3efe5,
@@ -62520,8 +62181,7 @@ PrefabInstance:
       value: "Well, it\u2019s finally happening -- I\u2019m getting married. Father
         tells me I should be more excited, and above all, smile. But I can\u2019t
         help feel that I\u2019m just being shunted from the hulking arms of my overbearing
-        father to the scrawny arms of some half-wealthy heir. Well off I go to the
-        day each and every young girl dreams of. "
+        father to the scrawny arms of some half-wealthy heir. "
       objectReference: {fileID: 0}
     - target: {fileID: 8402766119913665299, guid: 3233ec71d9b81574290bdc3e23644f13,
         type: 3}
@@ -62617,7 +62277,7 @@ Transform:
   m_LocalScale: {x: 0.085, y: 0.1, z: 0.11}
   m_Children: []
   m_Father: {fileID: 213890749}
-  m_RootOrder: 32
+  m_RootOrder: 27
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!64 &1743830755
 MeshCollider:
@@ -63750,168 +63410,6 @@ RectTransform:
   m_AnchoredPosition: {x: 9.6, y: 34.240005}
   m_SizeDelta: {x: 3, y: 7}
   m_Pivot: {x: 0.5, y: 0.5}
---- !u!1001 &1778641005
-PrefabInstance:
-  m_ObjectHideFlags: 0
-  serializedVersion: 2
-  m_Modification:
-    m_TransformParent: {fileID: 213890749}
-    m_Modifications:
-    - target: {fileID: 8402766119913665298, guid: 3233ec71d9b81574290bdc3e23644f13,
-        type: 3}
-      propertyPath: noteText
-      value: "I don\u2019t know what I expected. No prison, no South America, just
-        another husband. I haven\u2019t even met him, and we are to be wed in a month!
-        Fine then -- perhaps he\u2019ll just have to meet the same fate as his predecessors! "
-      objectReference: {fileID: 0}
-    - target: {fileID: 8402766119913665299, guid: 3233ec71d9b81574290bdc3e23644f13,
-        type: 3}
-      propertyPath: m_Name
-      value: Note (31)
-      objectReference: {fileID: 0}
-    - target: {fileID: 8402766119913665302, guid: 3233ec71d9b81574290bdc3e23644f13,
-        type: 3}
-      propertyPath: m_LocalPosition.x
-      value: 33.06296
-      objectReference: {fileID: 0}
-    - target: {fileID: 8402766119913665302, guid: 3233ec71d9b81574290bdc3e23644f13,
-        type: 3}
-      propertyPath: m_LocalPosition.y
-      value: 14.618405
-      objectReference: {fileID: 0}
-    - target: {fileID: 8402766119913665302, guid: 3233ec71d9b81574290bdc3e23644f13,
-        type: 3}
-      propertyPath: m_LocalPosition.z
-      value: 23.637909
-      objectReference: {fileID: 0}
-    - target: {fileID: 8402766119913665302, guid: 3233ec71d9b81574290bdc3e23644f13,
-        type: 3}
-      propertyPath: m_LocalRotation.x
-      value: -0
-      objectReference: {fileID: 0}
-    - target: {fileID: 8402766119913665302, guid: 3233ec71d9b81574290bdc3e23644f13,
-        type: 3}
-      propertyPath: m_LocalRotation.y
-      value: -0
-      objectReference: {fileID: 0}
-    - target: {fileID: 8402766119913665302, guid: 3233ec71d9b81574290bdc3e23644f13,
-        type: 3}
-      propertyPath: m_LocalRotation.z
-      value: -0
-      objectReference: {fileID: 0}
-    - target: {fileID: 8402766119913665302, guid: 3233ec71d9b81574290bdc3e23644f13,
-        type: 3}
-      propertyPath: m_LocalRotation.w
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 8402766119913665302, guid: 3233ec71d9b81574290bdc3e23644f13,
-        type: 3}
-      propertyPath: m_RootOrder
-      value: 6
-      objectReference: {fileID: 0}
-    - target: {fileID: 8402766119913665302, guid: 3233ec71d9b81574290bdc3e23644f13,
-        type: 3}
-      propertyPath: m_LocalEulerAnglesHint.x
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 8402766119913665302, guid: 3233ec71d9b81574290bdc3e23644f13,
-        type: 3}
-      propertyPath: m_LocalEulerAnglesHint.y
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 8402766119913665302, guid: 3233ec71d9b81574290bdc3e23644f13,
-        type: 3}
-      propertyPath: m_LocalEulerAnglesHint.z
-      value: 0
-      objectReference: {fileID: 0}
-    m_RemovedComponents: []
-  m_SourcePrefab: {fileID: 100100000, guid: 3233ec71d9b81574290bdc3e23644f13, type: 3}
---- !u!1001 &1780792506
-PrefabInstance:
-  m_ObjectHideFlags: 0
-  serializedVersion: 2
-  m_Modification:
-    m_TransformParent: {fileID: 213890749}
-    m_Modifications:
-    - target: {fileID: 8402766119913665298, guid: 3233ec71d9b81574290bdc3e23644f13,
-        type: 3}
-      propertyPath: noteText
-      value: 'Caroline, thank you for your kind words. I do think of them with great
-        grief. I play the piano constantly. It reminds me so much of Ambrose. His
-        favorite song was Married Life. Stay well. Petunia '
-      objectReference: {fileID: 0}
-    - target: {fileID: 8402766119913665299, guid: 3233ec71d9b81574290bdc3e23644f13,
-        type: 3}
-      propertyPath: m_Name
-      value: Note (12)
-      objectReference: {fileID: 0}
-    - target: {fileID: 8402766119913665302, guid: 3233ec71d9b81574290bdc3e23644f13,
-        type: 3}
-      propertyPath: m_LocalPosition.x
-      value: 29.382965
-      objectReference: {fileID: 0}
-    - target: {fileID: 8402766119913665302, guid: 3233ec71d9b81574290bdc3e23644f13,
-        type: 3}
-      propertyPath: m_LocalPosition.y
-      value: 14.798406
-      objectReference: {fileID: 0}
-    - target: {fileID: 8402766119913665302, guid: 3233ec71d9b81574290bdc3e23644f13,
-        type: 3}
-      propertyPath: m_LocalPosition.z
-      value: 22.337906
-      objectReference: {fileID: 0}
-    - target: {fileID: 8402766119913665302, guid: 3233ec71d9b81574290bdc3e23644f13,
-        type: 3}
-      propertyPath: m_LocalRotation.x
-      value: -0
-      objectReference: {fileID: 0}
-    - target: {fileID: 8402766119913665302, guid: 3233ec71d9b81574290bdc3e23644f13,
-        type: 3}
-      propertyPath: m_LocalRotation.y
-      value: -0.46067598
-      objectReference: {fileID: 0}
-    - target: {fileID: 8402766119913665302, guid: 3233ec71d9b81574290bdc3e23644f13,
-        type: 3}
-      propertyPath: m_LocalRotation.z
-      value: -0
-      objectReference: {fileID: 0}
-    - target: {fileID: 8402766119913665302, guid: 3233ec71d9b81574290bdc3e23644f13,
-        type: 3}
-      propertyPath: m_LocalRotation.w
-      value: 0.88756835
-      objectReference: {fileID: 0}
-    - target: {fileID: 8402766119913665302, guid: 3233ec71d9b81574290bdc3e23644f13,
-        type: 3}
-      propertyPath: m_RootOrder
-      value: 28
-      objectReference: {fileID: 0}
-    - target: {fileID: 8402766119913665302, guid: 3233ec71d9b81574290bdc3e23644f13,
-        type: 3}
-      propertyPath: m_LocalEulerAnglesHint.x
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 8402766119913665302, guid: 3233ec71d9b81574290bdc3e23644f13,
-        type: 3}
-      propertyPath: m_LocalEulerAnglesHint.y
-      value: -54.861
-      objectReference: {fileID: 0}
-    - target: {fileID: 8402766119913665302, guid: 3233ec71d9b81574290bdc3e23644f13,
-        type: 3}
-      propertyPath: m_LocalEulerAnglesHint.z
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 8402766119913665302, guid: 3233ec71d9b81574290bdc3e23644f13,
-        type: 3}
-      propertyPath: m_LocalScale.x
-      value: 0.08499999
-      objectReference: {fileID: 0}
-    - target: {fileID: 8402766119913665302, guid: 3233ec71d9b81574290bdc3e23644f13,
-        type: 3}
-      propertyPath: m_LocalScale.z
-      value: 0.10999999
-      objectReference: {fileID: 0}
-    m_RemovedComponents: []
-  m_SourcePrefab: {fileID: 100100000, guid: 3233ec71d9b81574290bdc3e23644f13, type: 3}
 --- !u!4 &1781100406 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: -8679921383154817045, guid: cc951a506535341b99204a3f2661b687,
@@ -67198,7 +66696,7 @@ RectTransform:
   m_LocalScale: {x: 0.77272743, y: 1, z: 1.294118}
   m_Children: []
   m_Father: {fileID: 213890749}
-  m_RootOrder: 15
+  m_RootOrder: 13
   m_LocalEulerAnglesHint: {x: 90, y: 90, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
@@ -72470,7 +71968,7 @@ PrefabInstance:
     - target: {fileID: -8679921383154817045, guid: 9c78cb50e3d194ef18a349dbac3c6cd4,
         type: 3}
       propertyPath: m_RootOrder
-      value: 35
+      value: 34
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: 9c78cb50e3d194ef18a349dbac3c6cd4,
         type: 3}
@@ -73752,12 +73250,6 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 2083411241}
   m_Mesh: {fileID: 10202, guid: 0000000000000000e000000000000000, type: 0}
---- !u!4 &2084045022 stripped
-Transform:
-  m_CorrespondingSourceObject: {fileID: 8402766119913665302, guid: 3233ec71d9b81574290bdc3e23644f13,
-    type: 3}
-  m_PrefabInstance: {fileID: 1601096686}
-  m_PrefabAsset: {fileID: 0}
 --- !u!1001 &2084566634
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -73873,8 +73365,8 @@ PrefabInstance:
     - target: {fileID: 8402766119913665298, guid: 3233ec71d9b81574290bdc3e23644f13,
         type: 3}
       propertyPath: noteText
-      value: The book on Jeffrey's table must be moved to the bookcase in the upstairs
-        hall.
+      value: Three missing objects must be returned to the bookshelf in the upstairs
+        hallway.
       objectReference: {fileID: 0}
     - target: {fileID: 8402766119913665299, guid: 3233ec71d9b81574290bdc3e23644f13,
         type: 3}
@@ -75612,7 +75104,7 @@ RectTransform:
   m_LocalScale: {x: 0.7727275, y: 1, z: 1.2941179}
   m_Children: []
   m_Father: {fileID: 213890749}
-  m_RootOrder: 16
+  m_RootOrder: 14
   m_LocalEulerAnglesHint: {x: 90, y: 180, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
