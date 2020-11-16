@@ -86,11 +86,15 @@ public class GameManager : MonoBehaviour
     }
 
     public void GivePlayerItem(string item) {
+        Debug.Log("Adding item");
+        Debug.Log(item);
         if (!inventory.HasItem(item))
             inventory.AddItem(item);
     }
 
     public void RemoveItem(string item) {
+        Debug.Log("Removing item");
+        Debug.Log(item);
         if (inventory.HasItem(item))
             inventory.RemoveItem(item);
     }
