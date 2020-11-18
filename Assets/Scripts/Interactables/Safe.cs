@@ -4,7 +4,6 @@ using UnityEngine;
 
 public class Safe : InteractComponent
 {
-    private GameObject oldCanvas;
     private bool solved;
     private GameManager manager;
     public GameObject keypadCanvas;
@@ -15,7 +14,7 @@ public class Safe : InteractComponent
     void Start() {
         manager = GameState.Manager;
         solved = false;
-        manager.ResetCanvas();
+        keypadCanvas.SetActive(false);
     }
 
     public override void Interact() {
