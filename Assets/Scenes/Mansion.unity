@@ -2157,9 +2157,8 @@ PrefabInstance:
         a week away! He said I seemed nervous and he made me tell him what the matter
         was. I told him how often I\u2019d been married, how lonely I\u2019d been,
         how I just wanted to see the world. Well, he postponed the wedding, and now
-        we\u2019re off to South America! But first, I must get something from Jeffrey,
-        something that should have been mine long ago. And then, my life with Ambrose
-        will be truly protected! "
+        we\u2019re off to South America! We\u2019re set to be wed on the 6th of June
+        -- what a wonderfully convenient date!"
       objectReference: {fileID: 0}
     - target: {fileID: 8402766119913665299, guid: 3233ec71d9b81574290bdc3e23644f13,
         type: 3}
@@ -3527,7 +3526,7 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 37
+  m_RootOrder: 38
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1001 &63047432
 PrefabInstance:
@@ -7283,7 +7282,7 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 34
+  m_RootOrder: 35
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &168169583
 GameObject:
@@ -7390,9 +7389,10 @@ PrefabInstance:
     - target: {fileID: 8402766119913665298, guid: 3233ec71d9b81574290bdc3e23644f13,
         type: 3}
       propertyPath: noteText
-      value: "Today I snuck out to visit Charles. He lives only a mile from us, but
-        I have to go through the woods so no one sees me. He makes me so happy! Maybe
-        one day I\u2019ll be able to bring him here, over my uncle\u2019s dead body. "
+      value: "I must say, I\u2019ve been improving even faster than I thought I would!
+        Jeffrey seems grudgingly pleased with my progress, but I think he worries
+        I will soon be able to defeat even him in chess. First Jeffrey, then the
+        world! "
       objectReference: {fileID: 0}
     - target: {fileID: 8402766119913665299, guid: 3233ec71d9b81574290bdc3e23644f13,
         type: 3}
@@ -7652,7 +7652,7 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 32
+  m_RootOrder: 33
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &172978634
 GameObject:
@@ -9259,7 +9259,7 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 30
+  m_RootOrder: 31
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!4 &220388311 stripped
 Transform:
@@ -9754,7 +9754,7 @@ Transform:
   - {fileID: 1152943882}
   - {fileID: 222320185}
   m_Father: {fileID: 0}
-  m_RootOrder: 13
+  m_RootOrder: 14
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &233298198
 GameObject:
@@ -11855,10 +11855,11 @@ PrefabInstance:
     - target: {fileID: 8402766119913665298, guid: 3233ec71d9b81574290bdc3e23644f13,
         type: 3}
       propertyPath: noteText
-      value: "Charlie\u2019s gone. The fool! He went to the front door and asked
-        Jeffrey if I was free to go on a walk. Jeffrey told him that no niece of
-        his would ever see a boy like Charlie and slammed the door! It\u2019s been
-        a week. I haven\u2019t heard from Charlie since. "
+      value: "Mother and Jeffrey have told me not to go to the park anymore. They
+        don\u2019t trust the men I play with, they say. But I know the truth: they
+        don\u2019t want me to be the best. They know if I keep playing I will become
+        world champion, and then they\u2019ll no longer have any power over me, and
+        I\u2019ll be free. The Algerian man has promised to keep coaching me secretly. "
       objectReference: {fileID: 0}
     - target: {fileID: 8402766119913665299, guid: 3233ec71d9b81574290bdc3e23644f13,
         type: 3}
@@ -13641,13 +13642,11 @@ PrefabInstance:
     - target: {fileID: 8402766119913665298, guid: 3233ec71d9b81574290bdc3e23644f13,
         type: 3}
       propertyPath: noteText
-      value: "I do believe that Mother is pleased that my relationship with Charlie
-        has ended. It infuriates me\u2014just because she married young and was unlucky
-        in love so many times! And Uncle Jeff isn\u2019t much better. It feels like
-        his superior attitude is getting ahead of him. But he\u2019s been alone in
-        this house for so long\u2014I can\u2019t help but feel that I am the only
-        sane person here. Mother lets in everyone and Jeff lets in no one. Am I not
-        allowed to have a normal relationship because they can\u2019t?!"
+      value: "Today I watched mother and uncle Jeffrey play a game called \u201CChess.\u201D
+        I\u2019ve never heard of it before, but it seems positively thrilling. All
+        the strategy and tactics, it made me feel like I was watching war unfold!
+        Jeffrey\u2019s promised to teach me the rules and soon, I will be leading
+        my own troops on the battlefield. "
       objectReference: {fileID: 0}
     - target: {fileID: 8402766119913665299, guid: 3233ec71d9b81574290bdc3e23644f13,
         type: 3}
@@ -13896,7 +13895,7 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 21
+  m_RootOrder: 22
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &330257783
 GameObject:
@@ -14421,7 +14420,7 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 38
+  m_RootOrder: 39
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1001 &340401072
 PrefabInstance:
@@ -15925,7 +15924,7 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 28
+  m_RootOrder: 29
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &365421249
 GameObject:
@@ -16141,7 +16140,7 @@ Transform:
   - {fileID: 1535556166}
   - {fileID: 119751537}
   m_Father: {fileID: 0}
-  m_RootOrder: 25
+  m_RootOrder: 26
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1001 &367443232
 PrefabInstance:
@@ -16928,7 +16927,7 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 31
+  m_RootOrder: 32
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &394406419
 GameObject:
@@ -17119,11 +17118,11 @@ PrefabInstance:
     - target: {fileID: 8402766119913665298, guid: 3233ec71d9b81574290bdc3e23644f13,
         type: 3}
       propertyPath: noteText
-      value: "I went to Charlie\u2019s today. I took my usual walk to his house so
-        we could meet at our usual time. It was too much not hearing from him for
-        an entire week! But there he was, sitting at his dining room table, talking
-        to a new belle! A new belle, can you believe it? It\u2019s only been a week!
-        Maybe Jeffrey was right. I shouldn\u2019t be seeing such a stupid boy. "
+      value: "I beat the Algerian man for the first time today! He told me I must
+        soon enter into the world\u2019s contests, as I am nearly ready to play the
+        best. But how ever will I sneak in with Jeffrey and my mother watching my
+        every move? All I want, all I will ever want, is to become the chess champion,
+        and no one will stand in my way! "
       objectReference: {fileID: 0}
     - target: {fileID: 8402766119913665299, guid: 3233ec71d9b81574290bdc3e23644f13,
         type: 3}
@@ -20323,7 +20322,7 @@ Transform:
   - {fileID: 2117928720}
   - {fileID: 310016235}
   m_Father: {fileID: 0}
-  m_RootOrder: 6
+  m_RootOrder: 7
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &484123237
 GameObject:
@@ -21076,7 +21075,7 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 22
+  m_RootOrder: 23
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1001 &500959943
 PrefabInstance:
@@ -21664,7 +21663,7 @@ Transform:
   - {fileID: 926947226}
   - {fileID: 1656894253}
   m_Father: {fileID: 0}
-  m_RootOrder: 5
+  m_RootOrder: 6
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &515816964
 GameObject:
@@ -23668,7 +23667,7 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 17
+  m_RootOrder: 18
   m_LocalEulerAnglesHint: {x: 57.04, y: -160.381, z: -163.356}
 --- !u!1 &564961573
 GameObject:
@@ -25277,7 +25276,7 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 24
+  m_RootOrder: 25
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &623582804
 GameObject:
@@ -26051,7 +26050,7 @@ Transform:
   - {fileID: 394912800}
   - {fileID: 728995748}
   m_Father: {fileID: 0}
-  m_RootOrder: 3
+  m_RootOrder: 4
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &646523232
 GameObject:
@@ -26175,7 +26174,7 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 20
+  m_RootOrder: 21
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &655936858
 GameObject:
@@ -36888,7 +36887,7 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 29
+  m_RootOrder: 30
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1001 &978865380
 PrefabInstance:
@@ -42939,7 +42938,7 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 27
+  m_RootOrder: 28
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1138619680
 GameObject:
@@ -46000,7 +45999,7 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 26
+  m_RootOrder: 27
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1205327144
 GameObject:
@@ -48504,7 +48503,7 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 39
+  m_RootOrder: 40
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1267147823
 GameObject:
@@ -50171,7 +50170,7 @@ Transform:
   - {fileID: 241302124}
   - {fileID: 1087344018}
   m_Father: {fileID: 0}
-  m_RootOrder: 33
+  m_RootOrder: 34
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!114 &1325504911
 MonoBehaviour:
@@ -50958,7 +50957,7 @@ Transform:
   - {fileID: 1091181223}
   - {fileID: 1829652454}
   m_Father: {fileID: 0}
-  m_RootOrder: 4
+  m_RootOrder: 5
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!4 &1356222518 stripped
 Transform:
@@ -53127,7 +53126,7 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 40
+  m_RootOrder: 41
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1409798722 stripped
 GameObject:
@@ -56200,7 +56199,7 @@ Transform:
   - {fileID: 1312243072}
   - {fileID: 433192423}
   m_Father: {fileID: 0}
-  m_RootOrder: 9
+  m_RootOrder: 10
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1476029366 stripped
 GameObject:
@@ -57496,7 +57495,7 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 19
+  m_RootOrder: 20
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1001 &1505174889
 PrefabInstance:
@@ -59624,13 +59623,10 @@ PrefabInstance:
     - target: {fileID: 8402766119913665298, guid: 3233ec71d9b81574290bdc3e23644f13,
         type: 3}
       propertyPath: noteText
-      value: "Charlie surprised me today, and Jeffrey almost saw us! It was exhilarating,
-        to tell the truth. He was standing on the edge of the forest, just past the
-        first line of trees, in a beautiful grey jacket that made him look like a
-        young Lincoln. And he had a rose in his hand! I saw him from my window and
-        wanted more than anything to go down and see him, but I know Jeffrey would
-        be watching. Maybe I\u2019ll just run away, and then Charlie and I will be
-        free to be together! "
+      value: "Yesterday, I went to the park, and I don\u2019t believe it, but I lost!
+        An older Algerian gentleman took my king in seven turns. He did say it was
+        worse than he usually did, but I think he was just trying to make me feel
+        better. No matter, I will return tomorrow and win! "
       objectReference: {fileID: 0}
     - target: {fileID: 8402766119913665299, guid: 3233ec71d9b81574290bdc3e23644f13,
         type: 3}
@@ -61340,6 +61336,11 @@ PrefabInstance:
         type: 3}
       propertyPath: enterNeeded
       value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 4351499541030582055, guid: 3efed6dc32665c348aef6abf7e8516da,
+        type: 3}
+      propertyPath: key
+      value: 0606
       objectReference: {fileID: 0}
     - target: {fileID: 4351499541030582058, guid: 3efed6dc32665c348aef6abf7e8516da,
         type: 3}
@@ -64152,6 +64153,84 @@ MeshRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_AdditionalVertexStreams: {fileID: 0}
+--- !u!1001 &1691549928
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: 8402766119913665298, guid: 3233ec71d9b81574290bdc3e23644f13,
+        type: 3}
+      propertyPath: noteText
+      value: "I\u2019ve finally beaten Jeffrey in chess! It took me seven weeks of
+        practice, but I always prevail. Mother was certainly a challenge, but my
+        talent is boundless. She was no match for me. The only caveat to my victory
+        is that there is no one in the house left to defeat. And Lily wept, for there
+        were no more worlds to conquer."
+      objectReference: {fileID: 0}
+    - target: {fileID: 8402766119913665299, guid: 3233ec71d9b81574290bdc3e23644f13,
+        type: 3}
+      propertyPath: m_Name
+      value: Note (1)
+      objectReference: {fileID: 0}
+    - target: {fileID: 8402766119913665302, guid: 3233ec71d9b81574290bdc3e23644f13,
+        type: 3}
+      propertyPath: m_LocalPosition.x
+      value: -14.772034
+      objectReference: {fileID: 0}
+    - target: {fileID: 8402766119913665302, guid: 3233ec71d9b81574290bdc3e23644f13,
+        type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 19.077875
+      objectReference: {fileID: 0}
+    - target: {fileID: 8402766119913665302, guid: 3233ec71d9b81574290bdc3e23644f13,
+        type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 34.5336
+      objectReference: {fileID: 0}
+    - target: {fileID: 8402766119913665302, guid: 3233ec71d9b81574290bdc3e23644f13,
+        type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8402766119913665302, guid: 3233ec71d9b81574290bdc3e23644f13,
+        type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8402766119913665302, guid: 3233ec71d9b81574290bdc3e23644f13,
+        type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8402766119913665302, guid: 3233ec71d9b81574290bdc3e23644f13,
+        type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 8402766119913665302, guid: 3233ec71d9b81574290bdc3e23644f13,
+        type: 3}
+      propertyPath: m_RootOrder
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 8402766119913665302, guid: 3233ec71d9b81574290bdc3e23644f13,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8402766119913665302, guid: 3233ec71d9b81574290bdc3e23644f13,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8402766119913665302, guid: 3233ec71d9b81574290bdc3e23644f13,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 3233ec71d9b81574290bdc3e23644f13, type: 3}
 --- !u!1 &1691717714
 GameObject:
   m_ObjectHideFlags: 0
@@ -68517,7 +68596,7 @@ Transform:
   - {fileID: 962961740}
   - {fileID: 1284215779}
   m_Father: {fileID: 0}
-  m_RootOrder: 16
+  m_RootOrder: 17
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1001 &1796127914
 PrefabInstance:
@@ -71187,7 +71266,7 @@ Transform:
   - {fileID: 1323382017}
   - {fileID: 746266800}
   m_Father: {fileID: 0}
-  m_RootOrder: 11
+  m_RootOrder: 12
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1885782158
 GameObject:
@@ -71655,7 +71734,7 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 18
+  m_RootOrder: 19
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1891136457
 GameObject:
@@ -72763,7 +72842,7 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 23
+  m_RootOrder: 24
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1001 &1916496560
 PrefabInstance:
@@ -73276,7 +73355,7 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 35
+  m_RootOrder: 36
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1926385875 stripped
 GameObject:
@@ -76336,7 +76415,7 @@ Transform:
   - {fileID: 1428074073}
   - {fileID: 1129431628}
   m_Father: {fileID: 0}
-  m_RootOrder: 7
+  m_RootOrder: 8
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1001 &2030877288
 PrefabInstance:
