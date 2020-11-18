@@ -3606,6 +3606,11 @@ PrefabInstance:
       propertyPath: m_LocalScale.z
       value: 8.790615
       objectReference: {fileID: 0}
+    - target: {fileID: -3393059317818742671, guid: 116474a00c7cc034bafb8d3135690641,
+        type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: 6d011a22425ad9845a3b4d09c3e93191, type: 2}
     - target: {fileID: 919132149155446097, guid: 116474a00c7cc034bafb8d3135690641,
         type: 3}
       propertyPath: m_Name
@@ -36786,6 +36791,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: slaughterhousefive
       objectReference: {fileID: 0}
+    - target: {fileID: 4233759112311550774, guid: 80a2357f3db874648b89753b591fe6a7,
+        type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: 6d011a22425ad9845a3b4d09c3e93191, type: 2}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 80a2357f3db874648b89753b591fe6a7, type: 3}
 --- !u!1 &978004135
@@ -58742,6 +58752,11 @@ PrefabInstance:
       propertyPath: m_LocalScale.z
       value: 8.1929
       objectReference: {fileID: 0}
+    - target: {fileID: -3393059317818742671, guid: 7c877f7d98ab4844bbd5a70b179fd6a2,
+        type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: 6d011a22425ad9845a3b4d09c3e93191, type: 2}
     - target: {fileID: 919132149155446097, guid: 7c877f7d98ab4844bbd5a70b179fd6a2,
         type: 3}
       propertyPath: m_Name
