@@ -37,7 +37,7 @@ public class Safe : InteractComponent
         FinishInteract();
     }
 
-    public void FinishInteract() {
+    public override void FinishInteract() {
         if (viewPoint)
             manager.ResetCamera();
 

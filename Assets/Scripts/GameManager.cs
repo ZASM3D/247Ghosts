@@ -28,6 +28,19 @@ public class GameManager : MonoBehaviour
         playerCamera = Camera.main;
     }
 
+    void Update()
+    {
+        if (Input.GetButtonDown("Quit")) {
+            Debug.Log("Bye");
+            Application.Quit();
+        }
+
+        if (activeCanvas == notesCanvas && Input.GetKeyDown(KeyCode.Escape)) {
+            ResetCanvas();
+            AllowPlayerMovement();
+        }
+    }
+
     public void SetActiveCanvas(GameObject newCanvas) {
         activeCanvas.SetActive(false);
         activeCanvas = newCanvas;

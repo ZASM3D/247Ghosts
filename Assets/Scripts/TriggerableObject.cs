@@ -7,4 +7,8 @@ public class TriggerableObject : MonoBehaviour
     public virtual void TriggerPuzzle(string name) {
         Debug.Log(name + " solved!");
     }
+
+    public virtual void FinishInteract() {
+        Debug.Log("Interact Finished");
+    }
 }

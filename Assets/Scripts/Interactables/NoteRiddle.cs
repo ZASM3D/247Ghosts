@@ -43,7 +43,7 @@ public class NoteRiddle : InteractComponent
         FinishInteract();
     }
 
-    public void FinishInteract() {
+    public override void FinishInteract() {
         if (viewPoint)
             manager.ResetCamera();
 

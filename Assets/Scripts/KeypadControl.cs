@@ -18,7 +18,14 @@ public class KeypadControl : MonoBehaviour
         ResetValue();
     }
 
-    void UpdateDisplay() {
+    void Update() {
+        if (Input.GetKeyDown(KeyCode.Escape)) {
+            Debug.Log("Bye");
+            trigger.FinishInteract();
+        }
+    }
+
+    private void UpdateDisplay() {
         if (display) {
             display.text = currentValue;
         }
