@@ -54629,7 +54629,7 @@ PrefabInstance:
     - target: {fileID: -8679921383154817045, guid: 0e2e6439c515b4493b53e06e2ecef872,
         type: 3}
       propertyPath: m_RootOrder
-      value: 2
+      value: 3
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: 0e2e6439c515b4493b53e06e2ecef872,
         type: 3}
@@ -64295,7 +64295,7 @@ PrefabInstance:
     - target: {fileID: 8402766119913665302, guid: 3233ec71d9b81574290bdc3e23644f13,
         type: 3}
       propertyPath: m_LocalPosition.y
-      value: 19.077875
+      value: 19.106
       objectReference: {fileID: 0}
     - target: {fileID: 8402766119913665302, guid: 3233ec71d9b81574290bdc3e23644f13,
         type: 3}
@@ -68556,20 +68556,6 @@ GameObject:
     type: 3}
   m_PrefabInstance: {fileID: 1653493799}
   m_PrefabAsset: {fileID: 0}
---- !u!114 &1788251241
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1788251240}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 2423d91ce9f2800478cf64dfa398787a, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  requiredObjects: []
-  removeObjects: 1
 --- !u!65 &1788251242
 BoxCollider:
   m_ObjectHideFlags: 0
