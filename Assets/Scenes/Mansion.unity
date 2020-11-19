@@ -45796,9 +45796,8 @@ PrefabInstance:
       propertyPath: noteText
       value: Jeffrey's always coming up with strange ways to keep me entertained
         in this dour home. Now he's hidden my watering can in this safe, and I have
-        no idea what the code is! He hinted at something about the colors on the
-        poster matching the color of the books in the library, but I'm hopeless with
-        puzzles! -L
+        no idea what the code is! He hinted at something about the poster on the
+        wall being important, but I'm hopeless at puzzles!
       objectReference: {fileID: 0}
     - target: {fileID: 8402766119913665299, guid: 3233ec71d9b81574290bdc3e23644f13,
         type: 3}
