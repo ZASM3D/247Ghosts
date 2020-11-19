@@ -25738,11 +25738,10 @@ PrefabInstance:
     - target: {fileID: 8402766119913665298, guid: 3233ec71d9b81574290bdc3e23644f13,
         type: 3}
       propertyPath: noteText
-      value: 'Today was the day we were meant to leave, and Ambrose never arrived.
+      value: Today was the day we were meant to leave, and Ambrose never arrived.
         Had I been duped? Was this all a practical joke to torture me? What have
-        I done to deserve this? // Ambrose has passed. Another tragic accident. I
-        shall mourn his loss as I would have mourned my own. Were that I had taken
-        his place! '
+        I done to deserve this? Ambrose has passed. Another tragic accident. I shall
+        mourn his loss as I would have mourned my own. W
       objectReference: {fileID: 0}
     - target: {fileID: 8402766119913665299, guid: 3233ec71d9b81574290bdc3e23644f13,
         type: 3}
