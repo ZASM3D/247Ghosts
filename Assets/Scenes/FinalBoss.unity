@@ -1194,6 +1194,18 @@ PrefabInstance:
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 5acbe2d22c0ac82409a39557cabac774, type: 3}
+--- !u!114 &990960999 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 1541313353594753763, guid: 5acbe2d22c0ac82409a39557cabac774,
+    type: 3}
+  m_PrefabInstance: {fileID: 990960998}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fe87c0e1cc204ed48ad3b37840f39efc, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1001 &1016694101
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -2464,6 +2476,11 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 8132496002033622289, guid: c12bfb5aec37015409086f7428e5f8ea,
+        type: 3}
+      propertyPath: reticle
+      value: 
+      objectReference: {fileID: 990960999}
     - target: {fileID: 8132496003360337235, guid: c12bfb5aec37015409086f7428e5f8ea,
         type: 3}
       propertyPath: m_Name

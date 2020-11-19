@@ -147,6 +147,8 @@ MonoBehaviour:
     serializedVersion: 2
     m_Bits: 4
   distance: 8
+  reticle: {fileID: 0}
+  hoverColor: {r: 0.20870416, g: 0.43454078, b: 0.6603774, a: 1}
 --- !u!1 &8132496002484237290
 GameObject:
   m_ObjectHideFlags: 0
