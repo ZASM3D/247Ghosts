@@ -11820,6 +11820,46 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 7891495391607959648, guid: 6ee9acbd78465bf40a90d37a199a04e8,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7891495391684913887, guid: 6ee9acbd78465bf40a90d37a199a04e8,
+        type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.size
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7891495391684913887, guid: 6ee9acbd78465bf40a90d37a199a04e8,
+        type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Mode
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 7891495391684913887, guid: 6ee9acbd78465bf40a90d37a199a04e8,
+        type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_CallState
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 7891495391684913887, guid: 6ee9acbd78465bf40a90d37a199a04e8,
+        type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Target
+      value: 
+      objectReference: {fileID: 1089264455}
+    - target: {fileID: 7891495391684913887, guid: 6ee9acbd78465bf40a90d37a199a04e8,
+        type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_TargetAssemblyTypeName
+      value: GameManager, Assembly-CSharp
+      objectReference: {fileID: 0}
+    - target: {fileID: 7891495391684913887, guid: 6ee9acbd78465bf40a90d37a199a04e8,
+        type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
+      value: SetActiveCanvas
+      objectReference: {fileID: 0}
+    - target: {fileID: 7891495391684913887, guid: 6ee9acbd78465bf40a90d37a199a04e8,
+        type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Arguments.m_ObjectArgumentAssemblyTypeName
+      value: UnityEngine.GameObject, UnityEngine
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 6ee9acbd78465bf40a90d37a199a04e8, type: 3}
 --- !u!33 &5908949326732206496
