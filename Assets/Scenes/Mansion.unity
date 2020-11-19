@@ -56072,6 +56072,11 @@ PrefabInstance:
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Arguments.m_ObjectArgumentAssemblyTypeName
       value: UnityEngine.Object, UnityEngine
       objectReference: {fileID: 0}
+    - target: {fileID: 1541313353594753765, guid: 5acbe2d22c0ac82409a39557cabac774,
+        type: 3}
+      propertyPath: m_Name
+      value: Reticle
+      objectReference: {fileID: 0}
     - target: {fileID: 3651458865827441266, guid: 5acbe2d22c0ac82409a39557cabac774,
         type: 3}
       propertyPath: player
@@ -56160,6 +56165,18 @@ Transform:
     type: 3}
   m_PrefabInstance: {fileID: 1459647230}
   m_PrefabAsset: {fileID: 0}
+--- !u!114 &1459647232 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 1541313353594753763, guid: 5acbe2d22c0ac82409a39557cabac774,
+    type: 3}
+  m_PrefabInstance: {fileID: 1459647230}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fe87c0e1cc204ed48ad3b37840f39efc, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &1463236184
 GameObject:
   m_ObjectHideFlags: 0
@@ -61220,6 +61237,11 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 8132496002033622289, guid: c12bfb5aec37015409086f7428e5f8ea,
+        type: 3}
+      propertyPath: reticle
+      value: 
+      objectReference: {fileID: 1459647232}
     - target: {fileID: 8132496002484237289, guid: c12bfb5aec37015409086f7428e5f8ea,
         type: 3}
       propertyPath: m_Materials.Array.data[0]
