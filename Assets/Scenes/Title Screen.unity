@@ -238,7 +238,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 0, y: -136.9}
+  m_AnchoredPosition: {x: 0, y: -194.9}
   m_SizeDelta: {x: 160, y: 30}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &160669522
@@ -888,7 +888,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 0cd44c1031e13a943bb63640046fad76, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  m_UiScaleMode: 0
+  m_UiScaleMode: 1
   m_ReferencePixelsPerUnit: 100
   m_ScaleFactor: 1
   m_ReferenceResolution: {x: 800, y: 600}
@@ -974,8 +974,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 0, y: 88}
-  m_SizeDelta: {x: 375.4, y: 431.1}
+  m_AnchoredPosition: {x: 0, y: 39.300022}
+  m_SizeDelta: {x: 440.8, y: 431.1}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1546785995
 MonoBehaviour:
@@ -999,7 +999,7 @@ MonoBehaviour:
       m_Calls: []
   m_FontData:
     m_Font: {fileID: 10102, guid: 0000000000000000e000000000000000, type: 0}
-    m_FontSize: 25
+    m_FontSize: 23
     m_FontStyle: 0
     m_BestFit: 0
     m_MinSize: 2
@@ -1012,8 +1012,8 @@ MonoBehaviour:
     m_LineSpacing: 1
   m_Text: "You can move your character with WASD and use the mouse to look around.
     \n\nThere are many objects and puzzles in the house that you can press 'e' to
-    interact with.\n\nExplore the dark corners of the house, learn the secrets of
-    its residents, and decide their fate."
+    interact with.\n\nYou can quit the game by pressing 'p'.\n\nExplore the dark
+    corners of the house, learn the secrets of its residents, and decide their fate."
 --- !u!222 &1546785996
 CanvasRenderer:
   m_ObjectHideFlags: 0

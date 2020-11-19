@@ -6,6 +6,9 @@ EditorBuildSettings:
   serializedVersion: 2
   m_Scenes:
   - enabled: 1
+    path: Assets/Scenes/Title Screen.unity
+    guid: 01e4d6463b060f245a7db625e083d0bf
+  - enabled: 1
     path: Assets/Scenes/Mansion.unity
     guid: 44ebb676b77c5428595d7f1fcf5f84f7
   - enabled: 1

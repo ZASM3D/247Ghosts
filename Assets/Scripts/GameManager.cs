@@ -22,9 +22,11 @@ public class GameManager : MonoBehaviour
     }
 
     void Start() {
-        playerMove = GameState.Player.GetComponent<CharactrerControl>();
-        playerLook = GameState.Player.GetComponent<MouseLook>();
-        inventory = GameState.Player.GetComponent<PlayerInventory>();
+        if (GameState.Player) {
+            playerMove = GameState.Player.GetComponent<CharactrerControl>();
+            playerLook = GameState.Player.GetComponent<MouseLook>();
+            inventory = GameState.Player.GetComponent<PlayerInventory>();
+        }
         playerCamera = Camera.main;
     }
 
