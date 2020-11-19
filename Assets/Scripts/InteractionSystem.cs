@@ -28,7 +28,6 @@ public class InteractionSystem : MonoBehaviour
 
         if (intComp) {
             reticle.color = hoverColor;
-            Debug.Log("Set");
         } else {
             reticle.color = defaultColor;
         }
