@@ -29067,7 +29067,8 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: Hello, I see you've made it to my room at last.
+  m_text: Hello, I see you've made it to my room at last. (Press 'E' to hear what
+    I have to say.)
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
   m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
@@ -32421,7 +32422,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: I am Petunia. Welcome to my home.
+  m_text: I am Petunia. Welcome to my home. (Press 'E' to hear what I have to say.)
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
   m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
@@ -52649,10 +52650,9 @@ MonoBehaviour:
   m_GameObject: {fileID: 1401989846}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: c44a17ce0c7b542ada5ebe5864e384dd, type: 3}
+  m_Script: {fileID: 11500000, guid: 1bfb5526b85ea4b37b9e7366deda23ad, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  item: 
   dialogue: {fileID: 1853178126}
 --- !u!4 &1401989849 stripped
 Transform:
@@ -55621,8 +55621,8 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: My father brought this penguin back from the Arctic from me, when he first
-    found that cursed necklace.
+  m_text: My father brought this penguin back from the Arctic, when he first found
+    that cursed necklace.
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
   m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
@@ -64176,7 +64176,8 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: Hello? This is Jeffrey. Thank goodness you picked up the phone!
+  m_text: Hello? This is Jeffrey. Thank goodness you picked up the phone! (Press
+    'E' to continue.)
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
   m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
@@ -71427,7 +71428,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: W         C         A
+  m_text: P         S         A
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
   m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
